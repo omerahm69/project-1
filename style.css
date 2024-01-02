@@ -15,10 +15,11 @@ html {
 
    }
 
-   ul{
+ .nav ul{
     list-style-type: none;
    }
-   a{
+
+  a {
     text-decoration: none;
     color:#300;
 
