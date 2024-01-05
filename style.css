@@ -4,26 +4,37 @@ html{
 
     }
 
-    *{box-sizing: border-box;
-        padding: 0;
-        margin: 0;
+    * {
+        padding: 0px;
+        margin: 0px;
+        font-family: century;
 
     }
 
-  
+header {
+    margin: top 0;
+    padding:3em 1em 2em 1em;
+    text-align: center;
+    background-image:url(Project-1/images/flagga-2693137.jpg) ;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+
    body{ 
-          background-image:url(Project-1/images/flagga-2693137.jpg) ;
+          
           font-family: Arial;
           color:slategray;
 
         }
 
-div ul li{
+
+ul {
     list-style-type: none;
-    display: flex;
+    float:right;
    }
 
-  a {
-    text-decoration: none;
-    color:#300;
-    }
+ ul li{
+
+    display: inline;
+ } 
