@@ -29,6 +29,10 @@ header {
         }
 
 
+    nav{
+      display:block;
+    }    
+
 ul {
     list-style-type: none;
     float:right;
