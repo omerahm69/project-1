@@ -14,11 +14,12 @@ body *{
 .header{
   
     min-height: 10vh;
-    background-image: url(images/IMG-20231229-WA0006.jpg);
+    background-image: url(images/Entrance\ of\ Old\ Arab\ Souk.jpg);
     background-size: cover;
     background-position: center;
     position:sticky;
     margin-top:0px;
+    margin-bottom: 1.5px;
     text-align:left;
     b/*ackground-color: whitesmoke;*/
 
@@ -73,12 +74,14 @@ nav ul{
     display:inline-block;
     padding:.5em 20px;
     text-decoration: none;
+    
     font-weight:bolder;
     font-size: large;
     border:1px solid #dfaaaa;
     border-radius:  0.5em;
     background-color: rgb(132, 159, 187);
     margin:0.25em;
+    line-height: 20PX;
 }
 
 a:link{color: rgb(113, 113, 245);}
@@ -92,6 +95,7 @@ a:active{color: rgb(240, 240, 138);}
     max-width:100%;
     height: 100px;
     margin-top: 0px;
+    line-height: 20PX;
 }
 
 /*page1 (home)*/
@@ -100,7 +104,7 @@ a:active{color: rgb(240, 240, 138);}
     justify-content: space-between;
     flex-wrap: wrap;
     flex-direction: row;
-    min-height: 90%;
+    min-height: 90vh;
     /*max-width: auto;
     margin-inline: auto;
     flex: 1 1 50%;
@@ -119,9 +123,11 @@ a:active{color: rgb(240, 240, 138);}
     max-width: 47%;
     margin-right:auto;
     margin-left: auto;
+    min-height: 90vh;
     background-color: aliceblue;
     position: relative;
     font-size: 12;
+    margin-bottom: 2px;
 }
 
 #content img{
@@ -134,13 +140,15 @@ a:active{color: rgb(240, 240, 138);}
 #aside1{
     /*float:left;*/
     max-width:25%;
+    min-height: 90px;
     flex:1 2 25;
     order:1;
     left:0%;
     position:sticky;
     align-self: flex-start;
     background-color: rgb(158, 184, 206);
-     font-size: 12;   
+     font-size: 12; 
+     margin-bottom: 2px;  
     
 }
 
@@ -153,6 +161,7 @@ a:active{color: rgb(240, 240, 138);}
 #aside2{
     /*float:right;*/
     max-width: 25%;
+    min-height: 90vh;
     position: sticky;
     align-self: flex-start;
     flex:1 2 25%;
@@ -161,11 +170,12 @@ a:active{color: rgb(240, 240, 138);}
     background-color: rgb(194, 218, 237);
     font-size: 12;
     text-align: left;
+    margin-bottom: 2px;
 }
 
 p::first-letter{
     font-size: 1.5rem;
-    font-weight: bold;
+    /*font-weight: bold;*/
 }
 
 #footer{
