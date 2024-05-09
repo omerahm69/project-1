@@ -14,13 +14,15 @@ body *{
 }
 
 .header{min-height:20px;
-    background-image: url(images/Entrance\ of\ Old\ Arab\ Souk.jpg);
+   /* background-image: url(images/Entrance\ of\ Old\ Arab\ Souk.jpg);*/
+   background-image: url(images/The-old-city-of-Massawa-in-Eritrea-05271413329F708F.jpg);
     background-size: cover;
     background-position: center;
     position:sticky;
-    margin-top:0px;
-    margin-bottom: 1.5px;
+    margin-top:20px;
+    margin-bottom: 2px;
     text-align:left;
+    line-height: 20px;
     /*ackground-color: whitesmoke;*/
 }
   
@@ -112,7 +114,7 @@ a:active{color: rgb(9, 115, 186);}
     flex-direction: row;
     min-height: 100px;
     width: 100%;
-     margin-bottom : 5px; 
+    margin-bottom : 5px; 
      
     /*margin-inline: auto;
     flex: 1 1 50%;
@@ -137,6 +139,7 @@ a:active{color: rgb(9, 115, 186);}
     font-size: 14px;
     margin-bottom: 5px;
     line-height: 1.5em;
+    list-style-position: inside;
 }
 
 #content img{
@@ -156,8 +159,8 @@ a:active{color: rgb(9, 115, 186);}
     position:sticky;
     align-self: flex-start;
     background-color: rgb(158, 184, 206);
-     font-size: 14px; 
-     margin-bottom: 5px;  
+    font-size: 14px; 
+    margin-bottom: 5px;  
     line-height: 1.5em;
 }
 
@@ -167,6 +170,7 @@ a:active{color: rgb(9, 115, 186);}
     max-height: 100%;
     /*margin-bottom: 10px;*/
     margin-top: 10px;
+    margin-bottom: 10px;
 }
 
 #aside2{
