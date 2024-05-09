@@ -53,22 +53,28 @@
             </div>
         
             
-
             <div id="aside1">
+
+                
+            </div>
+
+            <div id="aside2">
             
                 <form action="/mailinglist.php" method="post"> </form>
                 
                 <fieldset>
-                    <legend> Join our email list</legend>
-                    <p> Get news about the initiative sent to your own box</p>
+                    <legend> Please join our email list</legend>
+                    <p> Get news about the initiative sent to your own box and leave your message by suggestions you have for improvement</p>
                     <ol>
                         <li><label for ="user"> Username: </label>
                             <input type="text" name="username" id="username"></li>
                         <li> <label for="email">E-mail:</label>
                             <input type="text" name="email" id="email"></li>
-                            <input type="checkbox" username="accept_terms" value="yes" checked>
+                            <label for ="Message"> Message</label>
+                            <textarea id="Message" name="Your message" placeholder="Write your message here" style="height:150px"></textarea> 
+                          <input type="submit" value="Submit">  
                     </ol>
-                    <input type="submit" value="Submit">
+                    
                 </fieldset>
                 
 
