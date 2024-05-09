@@ -1,7 +1,5 @@
 /* common styling for all pages */
 body *{
-    /*background-color:#67C1CA;*/
-    /*width:auto;*/
 
     margin: 0;
     padding:0;
@@ -24,7 +22,7 @@ body *{
     margin-bottom: 2px;
     text-align:left;
     line-height: 20px;
-    /*ackground-color: whitesmoke;*/
+    
 }
   
     
@@ -43,7 +41,6 @@ body *{
 
 nav{ 
     display:flex;
-    /*flex-wrap: wrap;*/
     padding: 2% 6%;  /*add some spaces*/
     justify-content: space-between;
     align-items:center;
@@ -93,8 +90,6 @@ nav ul{
 
 a:link{color: rgb(113, 113, 245);}
 a:visited{color: white;}
-
-/*a:visited{color: rgb(70, 39, 228);}*/
 a:hover{color: rgb(38, 12, 231);}
 a:active{color: rgb(9, 115, 186);}
     
@@ -107,7 +102,6 @@ a:active{color: rgb(9, 115, 186);}
     line-height: 20PX;
 }
 
-/*page1 (home)*/
 .main{
     display:flex; /* I have mede the main element a flexbox so the content and asides elements line upp in a row */
     justify-content: space-between;
@@ -116,11 +110,6 @@ a:active{color: rgb(9, 115, 186);}
     min-height: 100px;
     width: 100%;
     margin-bottom : 5px; 
-     
-    /*margin-inline: auto;
-    flex: 1 1 50%;
-   
-    padding-top: 0px;
     background: white;
     position:relative;*/
         
@@ -151,7 +140,7 @@ a:active{color: rgb(9, 115, 186);}
 }
 
 #aside1{
-    /*float:left;*/
+    
     max-width:25%;
     min-height: 100px;
     flex:1 2 25%;
@@ -169,13 +158,12 @@ a:active{color: rgb(9, 115, 186);}
     margin:auto;
     max-width: 100%;
     max-height: 100%;
-    /*margin-bottom: 10px;*/
     margin-top: 10px;
     margin-bottom: 10px;
 }
 
 #aside2{
-    /*float:right;*/
+    
     max-width: 25%;
     min-height: 100px;
     position: sticky;
@@ -193,7 +181,7 @@ a:active{color: rgb(9, 115, 186);}
 
 p::first-letter{
     font-size: 1.5rem;
-    /*font-weight: bold;*/
+    
 }
 
 #side1 p, #side2 p, #content p{
