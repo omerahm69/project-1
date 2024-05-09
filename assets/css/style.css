@@ -14,8 +14,8 @@ body *{
 }
 
 .header{min-height:20px;
-   /* background-image: url(images/Entrance\ of\ Old\ Arab\ Souk.jpg);*/
-   background-image: url(assets/images/The-old-city-of-Massawa-in-Eritrea-05271413329F708F.jpg);
+   
+   background-image: url("../images/The-old-city-of-Massawa-in-Eritrea-05271413329F708F.jpg");
    
     background-size: cover;
     background-position: center;
