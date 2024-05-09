@@ -1,2 +1,3 @@
 # project-1
  
+This project is about the Urban Heritage of Massawa. An Eritrean civil initiative that seeks to document and protect the urban heritage of the ancient city of Massawa and spread awareness about it. The purpose of the website is informative gathering information about the old city of Massawa and the most important historical buildings to be protected. The main feature of the website is
