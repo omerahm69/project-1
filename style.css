@@ -13,7 +13,7 @@ body *{
 
 }
 
-.header{min-height: 10vh;
+.header{min-height:20px;
     background-image: url(images/Entrance\ of\ Old\ Arab\ Souk.jpg);
     background-size: cover;
     background-position: center;
@@ -31,7 +31,10 @@ body *{
     padding:2% 6%;
     align-items:center;
     margin-top:0;
-    color:darkblue;
+    color:white;
+    font-size: larger;
+    width:100%;
+
 }
 
 
@@ -76,9 +79,8 @@ nav ul{
     display:inline-block;
     padding:.5em 20px;
     text-decoration: none;
-    
     font-weight:bolder;
-    font-size: large;
+    font-size:xx-large;
     border:1px solid #dfaaaa;
     border-radius:  0.5em;
     background-color: rgb(132, 159, 187);
@@ -87,9 +89,11 @@ nav ul{
 }
 
 a:link{color: rgb(113, 113, 245);}
-a:visited{color: rgb(60, 7, 251);}
-a:hover{color: rgb(245, 179, 46);}
-a:active{color: rgb(240, 240, 138);}
+a:visited{color: white;}
+
+/*a:visited{color: rgb(70, 39, 228);}*/
+a:hover{color: rgb(38, 12, 231);}
+a:active{color: rgb(9, 115, 186);}
     
 .logo img{
     display: block;
@@ -106,11 +110,13 @@ a:active{color: rgb(240, 240, 138);}
     justify-content: space-between;
     flex-wrap: wrap;
     flex-direction: row;
-    min-height: 90vh;
-    /*max-width: auto;
-    margin-inline: auto;
+    min-height: 100px;
+    width: 100%;
+     margin-bottom : 5px; 
+     
+    /*margin-inline: auto;
     flex: 1 1 50%;
-    margin: 2px; 
+   
     padding-top: 0px;
     background: white;
     position:relative;*/
@@ -125,11 +131,11 @@ a:active{color: rgb(240, 240, 138);}
     max-width: 47%;
     margin-right:auto;
     margin-left: auto;
-    min-height: 90vh;
+    min-height: 100px;
     background-color: aliceblue;
     position: relative;
     font-size: 14px;
-    margin-bottom: 2px;
+    margin-bottom: 5px;
     line-height: 1.5em;
 }
 
@@ -143,28 +149,30 @@ a:active{color: rgb(240, 240, 138);}
 #aside1{
     /*float:left;*/
     max-width:25%;
-    min-height: 90px;
+    min-height: 100px;
     flex:1 2 25%;
     order:1;
     left:0%;
     position:sticky;
     align-self: flex-start;
     background-color: rgb(158, 184, 206);
-     font-size: 13px; 
-     margin-bottom: 2px;  
+     font-size: 14px; 
+     margin-bottom: 5px;  
     line-height: 1.5em;
 }
 
-#aside1 img{
-    
-    margin-bottom: 10px;
-    margin-top: 20px;
+#aside1 img, #aside2 img{
+    margin:auto;
+    max-width: 100%;
+    max-height: 100%;
+    /*margin-bottom: 10px;*/
+    margin-top: 10px;
 }
 
 #aside2{
     /*float:right;*/
     max-width: 25%;
-    min-height: 90vh;
+    min-height: 100px;
     position: sticky;
     align-self: flex-start;
     flex:1 2 25%;
@@ -172,10 +180,10 @@ a:active{color: rgb(240, 240, 138);}
     right:0;
     background-color: rgb(194, 218, 237);
     text-align: left;
-    margin-bottom: 2px;
-    font-size: 13px; 
+    margin-bottom: 5px;
+    font-size: 14px; 
     line-height: 1.5em;
-    
+    list-style-position: inside;
 }
 
 p::first-letter{
@@ -183,9 +191,13 @@ p::first-letter{
     /*font-weight: bold;*/
 }
 
+#side1 p, #side2 p, #content p{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
 #footer{
     clear: right;
     padding-bottom: 20px;
     background-color: aqua;
 }
-/*--page2 --*/
