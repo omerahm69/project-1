@@ -11,6 +11,10 @@ The main feature of the website is its simplicity.
 Wireframe
 Below is the design I have chosen to build the site. The design is consistent throughout the site.
 
+C:\Users\omer\OneDrive\Skrivbord\project-1\assets\readme\Webdesign.png
+
+
+
 Index: 
 - The home page shows the name of the site with a logo of the civil initiative of Massawa Urban Heritage called AKAN and a welcome text in the top left of the page.
 - To the right a horizontal, fixed text-based navigation bar with a hover effect with five main pages.
