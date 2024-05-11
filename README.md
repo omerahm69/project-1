@@ -8,3 +8,15 @@ The main feature of the website is its simplicity.
 3. If I am a user, I need to have some more options to get in touch with the initiative and the possibility of using a phone number or E-mail address make it easier. 
 4. As a user, I need to see consistency throughout the website, choosing a few colors and using them throughout the website giving me this consistency.
 
+Wireframe
+Below is the design I have chosen to build the site. The design is consistent throughout the site.
+
+Index: 
+- The home page shows the name of the site with a logo of the civil initiative of Massawa Urban Heritage called AKAN and a welcome text in the top left of the page.
+- To the right a horizontal, fixed text-based navigation bar with a hover effect with five main pages.
+
+
+Testing
+Validator testing
+- HTML
+    
