@@ -11,41 +11,47 @@ body *{
 
 }
 
-.header{min-height:20px;
-   
+.header{
+    height:320px;
    background-image: url("../images/The-old-city-of-Massawa-in-Eritrea-05271413329F708F.jpg");
-   
     background-size: cover;
     background-position: center;
-    position:sticky;
+    position: sticky;
     margin-top:20px;
     margin-bottom: 2px;
     text-align:left;
     line-height: 20px;
     
 }
+
+.banar-text{
+    text-align: left;
+    padding: 10px 10px;
+}
+
   
     
     
 
-.header h1{
-    padding:2% 6%;
+.header h1 p{
+    padding:10px 2px;
     align-items:center;
-    margin-top:0;
+    margin-top:15px;
     color:white;
     font-size: larger;
     width:100%;
+
 
 }
 
 
 nav{ 
     display:flex;
-    padding: 2% 6%;  /*add some spaces*/
+    padding: 7% 6%;  /*add some spaces*/
     justify-content: space-between;
-    align-items:center;
-    position:sticky;
-    top:0;
+    align-items:start;
+    
+    
 }
 
 nav ul{
@@ -54,28 +60,28 @@ nav ul{
     margin:0;
 }
 
-#sitenav{
+.sitenav{
     flex:1; /* it will occupy the row*/
     text-align: right;
     float:right;
     margin:10px;
-    min-height:20px;
+    min-height:50px;
     text-emphasis-color: rgb(153, 153, 240);
     
 }
 
-#sitenav ul li{
+.sitenav ul li{
     display:inline-block; /*to display horrisontally*/
     list-style: none;
     padding:8px 12px;
     position:relative;
-    color:#ed9393;
+
     text-decoration: none;
     font-size:larger;
 
 }
 
-#sitenav nav ul li a{
+.sitenav nav ul li a{
     display:inline-block;
     padding:.5em 20px;
     text-decoration: none;
@@ -115,7 +121,7 @@ a:active{color: rgb(9, 115, 186);}
         
 }
 
-#content{
+.content{
     
     flex:1 1 47%;
     order:2;
@@ -132,29 +138,27 @@ a:active{color: rgb(9, 115, 186);}
     list-style-position: inside;
 }
 
-#content img{
+.content img{
     margin-bottom: 10px;
     margin-top: 10px;
 
 
 }
 
-#aside1{
+.aside1{
     
     max-width:25%;
-    min-height: 100px;
+    position:sticky;
     flex:1 2 25%;
     order:1;
-    left:0%;
-    position:sticky;
-    align-self: flex-start;
     background-color: rgb(158, 184, 206);
+    text-align: right;
     font-size: 14px; 
-    margin-bottom: 5px;  
+    margin-bottom: 2px;  
     line-height: 1.5em;
 }
 
-#aside1 img, #aside2 img{
+.aside1 img, .aside2 img{
     margin:auto;
     max-width: 100%;
     max-height: 100%;
@@ -162,18 +166,15 @@ a:active{color: rgb(9, 115, 186);}
     margin-bottom: 10px;
 }
 
-#aside2{
+.aside2{
     
     max-width: 25%;
-    min-height: 100px;
     position: sticky;
-    align-self: flex-start;
     flex:1 2 25%;
     order:3;
-    right:0;
     background-color: rgb(194, 218, 237);
     text-align: left;
-    margin-bottom: 5px;
+    margin-bottom: 2px;
     font-size: 14px; 
     line-height: 1.5em;
     list-style-position: inside;
@@ -184,12 +185,48 @@ p::first-letter{
     
 }
 
-#side1 p, #side2 p, #content p{
-    margin-left: 10px;
-    margin-right: 10px;
+.side1 p, .side2 p, .content p{
+    margin-left: 5px;
+    margin-right: 5px;
+    
+
 }
 
-#footer{
+fieldset{
+    height: 50vh;
+    border:2px solid rgb(66, 27, 224);
+    display:flex;
+    flex-direction: column;
+    
+}
+
+label{ color:rgb(183, 183, 194);
+    padding:5px 10px;
+    margin-top: 10px;
+
+}
+label input{
+    background-color: rgb(162, 173, 233);
+    margin:15px;
+    border:2px solid black;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+input::placeholder{
+    height: 140px;
+    padding-top: 15px;
+    border-radius:10px;
+
+
+ }
+
+ button{
+    align-items: center;
+    margin-top: 15px;
+    padding:5px 0;
+
+ }
+footer{
     clear: right;
     padding-bottom: 20px;
     background-color: aqua;
