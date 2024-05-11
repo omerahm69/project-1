@@ -14,8 +14,6 @@ Below is the design I have chosen to build the site. The design is consistent th
 ![Screenshot 2024-05-11 at 23 35 16](./assets/readme/Webdesign.png)
 
 
-C:\Users\omer\OneDrive\Skrivbord\project-1\assets\readme\Webdesign.png
-
 
 
 Index: 
