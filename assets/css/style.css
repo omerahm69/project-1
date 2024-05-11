@@ -6,14 +6,11 @@ body *{
     box-sizing: border-box;
     font-family: sans-serif;
     font-size: 100%;
-
-    
-
 }
 
 .header{
     height:320px;
-   background-image: url("../images/The-old-city-of-Massawa-in-Eritrea-05271413329F708F.jpg");
+    background-image: url("../images/The-old-city-of-Massawa-in-Eritrea-05271413329F708F.jpg");
     background-size: cover;
     background-position: center;
     position: sticky;
@@ -21,19 +18,12 @@ body *{
     margin-bottom: 2px;
     text-align:left;
     line-height: 20px;
-    
 }
 
 .banar-text{
     text-align: left;
     padding: 10px 10px 10px 10px;
-    
-
 }
-
-  
-    
-    
 
 .header h1 p{
     padding:10px 2px;
@@ -42,18 +32,13 @@ body *{
     color:white;
     font-size: larger;
     width:100%;
-
-
 }
 
-
-nav{ 
+nav{
     display:flex;
     padding: 7% 6%;  /*add some spaces*/
     justify-content: space-between;
     align-items:start;
-    
-    
 }
 
 nav ul{
@@ -69,7 +54,6 @@ nav ul{
     margin:10px;
     min-height:50px;
     text-emphasis-color: rgb(153, 153, 240);
-    
 }
 
 .sitenav ul li{
@@ -77,7 +61,6 @@ nav ul{
     list-style: none;
     padding:8px 12px;
     position:relative;
-
     text-decoration: none;
     font-size:larger;
 
@@ -120,7 +103,7 @@ a:active{color: rgb(54, 68, 220);}
     margin-bottom : 5px; 
     background: white;
     position:relative;
-        
+
 }
 
 .content{
@@ -143,8 +126,6 @@ a:active{color: rgb(54, 68, 220);}
 .content img{
     margin-bottom: 10px;
     margin-top: 10px;
-
-
 }
 
 .aside1{
@@ -182,16 +163,17 @@ a:active{color: rgb(54, 68, 220);}
     list-style-position: inside;
 }
 
+.aside2 li span{
+    font-weight: bold;
+
+}
 p::first-letter{
     font-size: 1.5rem;
-    
 }
 
 .side1 p, .side2 p, .content p{
     margin-left: 5px;
     margin-right: 5px;
-    
-
 }
 
 fieldset{
@@ -199,13 +181,11 @@ fieldset{
     border:2px solid rgb(66, 27, 224);
     display:flex;
     flex-direction: column;
-    
 }
 
 label{ color:rgb(183, 183, 194);
     padding:5px 10px;
     margin-top: 10px;
-
 }
 label input{
     background-color: rgb(162, 173, 233);
@@ -219,17 +199,16 @@ input::placeholder{
     padding-top: 15px;
     border-radius:10px;
 
+}
 
- }
-
- button{
+button{
     align-items: center;
     margin-top: 15px;
     padding:5px 0;
+}
 
- }
 footer{
     clear: right;
     padding-bottom: 20px;
-    background-color: aqua;
+    background-color: rgb(184, 203, 227);
 }
