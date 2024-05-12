@@ -167,6 +167,14 @@ a:active{color: rgb(54, 68, 220);}
     list-style-position: inside;
 }
 
+
+    @media screen and (max-width: 600px)
+        .video-container{
+        width: 100%;
+        }
+
+
+
 iframe{
     border-width:0px;
 
