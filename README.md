@@ -54,7 +54,7 @@ Validator testing
  https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fomerahm69.github.io%2Fproject-1%2Fassets%2Fcss%2Fstyle.css&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en
     
 Accessibility Testing
-![Screenshot 2024-05-12 at 13 27](./assets/readme/./assets/readme/Skärmbild 2024-05-12 132525_accesibility.png)
+
 ![image](https://github.com/omerahm69/project-1/assets/153000625/ba33987a-fe57-4f9e-8fff-eaf7c51c85bd)
 
 Unfixed Bugs
