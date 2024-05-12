@@ -87,7 +87,7 @@ a:active{color: rgb(54, 68, 220);}
 .logo img{
     display: block;
     float:left;
-    max-width:100%;
+    max-width:100px;
     height: 100px;
     margin-bottom: 15px;
     line-height: 20PX;
@@ -98,7 +98,7 @@ a:active{color: rgb(54, 68, 220);}
     justify-content: space-between;
     flex-wrap: wrap;
     flex-direction: row;
-    min-height: 100px;
+   
     width: 100%;
     margin-bottom : 5px; 
     background: white;
@@ -114,7 +114,7 @@ a:active{color: rgb(54, 68, 220);}
     max-width: 47%;
     margin-right:auto;
     margin-left: auto;
-    min-height: 100px;
+    
     background-color: aliceblue;
     position: relative;
     font-size: 14px;
@@ -126,7 +126,11 @@ a:active{color: rgb(54, 68, 220);}
 .content img{
     margin-bottom: 10px;
     margin-top: 10px;
+    max-width:100%;
+    max-height:100%;
 }
+
+
 
 .aside1{
     
@@ -136,8 +140,8 @@ a:active{color: rgb(54, 68, 220);}
     order:1;
     background-color: rgb(158, 184, 206);
     text-align: left;
-    font-size: 14px; 
-    margin-bottom: 2px;  
+    font-size: 14px;
+    margin-bottom: 2px;
     line-height: 1.5em;
 }
 
@@ -158,12 +162,16 @@ a:active{color: rgb(54, 68, 220);}
     background-color: rgb(194, 218, 237);
     text-align: left;
     margin-bottom: 2px;
-    font-size: 14px; 
+    font-size: 14px;
     line-height: 1.5em;
     list-style-position: inside;
 }
 
-.aside2 li span{
+iframe{
+    border-width:0px;
+
+}
+ .content .side1,.aside2 li span{
     font-weight: bold;
 
 }
@@ -171,7 +179,7 @@ p::first-letter{
     font-size: 1.5rem;
 }
 
-.side1 p, .side2 p, .content p{
+.content p,.side1 p, .side2 p, {
     margin-left: 5px;
     margin-right: 5px;
 }
