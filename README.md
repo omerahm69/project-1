@@ -71,6 +71,8 @@ https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fomerahm69.github
 
 Accessibility Testing
 
+![Screenshot 2024-05-12 at 13 27](./assets/redme/Skärmbild 2024-05-12 132525_accesibility.png)
+
 
 Unfixed Bugs
 
