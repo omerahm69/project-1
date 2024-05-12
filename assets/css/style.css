@@ -98,7 +98,6 @@ a:active{color: rgb(54, 68, 220);}
     justify-content: space-between;
     flex-wrap: wrap;
     flex-direction: row;
-   
     width: 100%;
     margin-bottom : 5px; 
     background: white;
@@ -129,8 +128,6 @@ a:active{color: rgb(54, 68, 220);}
     max-width:100%;
     max-height:100%;
 }
-
-
 
 .aside1{
     
@@ -167,17 +164,13 @@ a:active{color: rgb(54, 68, 220);}
     list-style-position: inside;
 }
 
-
-    @media screen and (max-width: 600px)
-        .video-container{
-        width: 100%;
-        }
-
-
-
 iframe{
-    border-width:0px;
-
+    display:flexbox;
+    margin:1em auto;
+    width:80%
+    height:calc(.562 * 50vw);
+    max:width: 960px;
+    min-width: 250;
 }
  .content .side1,.aside2 li span{
     font-weight: bold;
