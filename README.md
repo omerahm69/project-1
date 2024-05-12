@@ -74,7 +74,7 @@ Clone
     1. Above the list of files click the button that says 'Code'
     2. Copy the URL for the repository.
     3. Open Terminal. Change the directory to the location where you want the cloned directory
-    4. Type git clone, and the paste the URL
+    4. Type git clone, and the paste the URL https://omerahm69.github.io/project-1/
     5. Press Enter
 
 Local Deployment
@@ -88,7 +88,7 @@ Remote Deployment
     2. Navigate to the settings tab
     3. Click on the tab called 'pages' on the left hand side
     4. From the source drop down list under the heading Build and deployment, select main.
-    5. The page will then provide the link to the website
+    5. The page will then provide the link to the website https://omerahm69.github.io/project-1/
     
 Credit
 
