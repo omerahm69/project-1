@@ -62,6 +62,7 @@ Unfixed Bugs
 Bugs due to types of images which affected the loading time and this has been solved by converting the images to the web insted of the png
 
 Deployment
+
 Fork
     1. On Github.com, navigate to the 
     2. In the top-right corner of the page, click Fork
