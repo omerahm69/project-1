@@ -57,6 +57,7 @@ Accessibility Testing
 
 ![image](https://github.com/omerahm69/project-1/assets/153000625/ba33987a-fe57-4f9e-8fff-eaf7c51c85bd)
 
+
 Unfixed Bugs
 Bugs due to types of images which affected the loading time and this has been solved by converting the images to the web insted of the png
 
