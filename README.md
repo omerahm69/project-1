@@ -97,8 +97,11 @@ Content
    .  Process from the Code Institute Love Running project was used to help create this website- CI Love Running
    . HTML,CSS code help was taken from w3schhols-W3Schools
 
+  I also make use of Learning Web Design, 5th Edition
+  A Beginer's Guide to HTML,CSS,JAVASCRIPT AND WEB GRAPHICS
+
+  
    Media, Videoa and Icons
    Images are from AKAN initiative, an Eritrean civil initiative for Urban Heritage of Massawa
 
-
-
+ 
