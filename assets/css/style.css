@@ -4,12 +4,13 @@ body *{
     margin: 0;
     padding:0;
     box-sizing: border-box;
-    font-family: sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
     font-size: 100%;
+    line-height: 1.6;
 }
 
 .header{
-    height:320px;
+    height:250px;
     background-image: url("../images/The-old-city-of-Massawa-in-Eritrea-05271413329F708F.webp");
     background-size: cover;
     background-position: center;
@@ -18,21 +19,41 @@ body *{
     margin-bottom: 2px;
     text-align:left;
     line-height: 20px;
+
+}
+.header::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5); /* Overlay to improve contrast */
 }
 
 .banar-text{
     text-align: left;
-    padding: 10px 10px 10px 10px;
+    padding: 30px 5px 30px 5px;
 }
 
-.header h1 p{
+.header h1 {
     padding:10px 2px;
     align-items:center;
-    margin-top:15px;
+    margin-top:5px;
+    margin-bottom: 5px;
     color:white;
-    font-size: larger;
+    font-size: large;
+    width:100%;
+
+}
+.header p{
+    padding:5px 2px;
+    margin-top:20px;
+    color:rgb(18, 17, 17);
+    font-size: small;
     width:100%;
 }
+
 
 nav{
     display:flex;
@@ -85,12 +106,15 @@ a:hover{color: rgb(38, 12, 231);}
 a:active{color: rgb(54, 68, 220);}
     
 .logo img{
-    display: block;
+    display: flex;
     float:left;
-    max-width:100px;
-    height: 100px;
-    margin-bottom: 15px;
-    line-height: 20PX;
+    max-width:70px;
+    height: 70px;
+    /*margin-bottom: 10px;*/
+    line-height: 5PX;
+    width: 400px,
+    height: auto;
+    
 }
 
 .main{
@@ -99,7 +123,7 @@ a:active{color: rgb(54, 68, 220);}
     flex-wrap: wrap;
     flex-direction: row;
     width: 100%;
-    margin-bottom : 5px; 
+    margin-bottom : 5px;
     background: white;
     position:relative;
     gap: 15px;
@@ -107,16 +131,17 @@ a:active{color: rgb(54, 68, 220);}
 
 .content{
     
-    flex:1 1 47%;
+    flex:1 1 45%;
     order:2;
     right:0%;
-    max-width: 47%;
+    max-width: 46%;
     background-color: aliceblue;
     position: relative;
     font-size: 14px;
     padding:10px;
     line-height: 1.5em;
     list-style-position: inside;
+    margin-bottom: 20px;
 }
 
 .content img{
@@ -124,10 +149,11 @@ a:active{color: rgb(54, 68, 220);}
     margin-top: 10px;
     max-width:100%;
     max-height:100%;
+
 }
 
 .aside1{
-    
+    padding: 2px;
     max-width:25%;
     position:sticky;
     flex:1 2 25%;
@@ -148,7 +174,7 @@ a:active{color: rgb(54, 68, 220);}
 }
 
 .aside2{
-    
+    padding:2px;
     max-width: 25%;
     position: sticky;
     flex:1 2 25%;
@@ -179,20 +205,26 @@ p::first-letter{
 .content p,.side1 p, .side2 p {
     margin-left: 5px;
     margin-right: 5px;
+    text-decoration: none;
 }
 
 fieldset{
-    height: 50vh;
-    border:2px solid rgb(66, 27, 224);
+    /*height: 50vh;
     display:flex;
-    flex-direction: column;
+    flex-direction: column*/
+    border:none;
+    padding: 0;
 }
 
-label{ color:rgb(183, 183, 194);
+label{ /*color:rgb(183, 183, 194);
     padding:5px 10px;
-    margin-top: 10px;
+    margin-top: 10px;*/
+    display: flex;
+    margin-bottom:  8px;
+    font-weight: bold;
+
 }
-label input{
+/*label input{
     background-color: rgb(162, 173, 233);
     margin:15px;
     border:2px solid black;
@@ -204,16 +236,84 @@ input::placeholder{
     padding-top: 15px;
     border-radius:10px;
 
+}*/
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+textarea {
+    height: 150px;
+    resize: vertical; /* Allows the user to resize the textarea vertically */
 }
 
 button{
-    align-items: center;
+    /*align-items: center;
     margin-top: 15px;
-    padding:5px 0;
+    padding:5px 0;*/
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+button:hover {
+    background-color: #45a049;
 }
 
-footer{
+footer .note{
     clear: right;
     padding-bottom: 20px;
     background-color: rgb(184, 203, 227);
+    text-align: center;
+    padding: 10px;
+    text-decoration: none;
+}
+footer .note a:hover {
+    text-decoration: underline;
+}
+
+/* Media Queries */
+@media (min-width: 768px) {
+    .content, .aside1, .aside2 {
+        flex: 1 1 45%; /* Allow side elements to sit beside the content on larger screens */
+        max-width: 46%;
+    }
+
+    .aside1, .aside2 {
+        flex: 1 2 25%;
+        max-width: 25%;
+    }
+
+    .content {
+        flex: 1 1 45%;
+        max-width: 46%;
+    }
+}
+
+@media (max-width: 767px) {
+    .header nav {
+        flex-direction: column;
+    }
+
+    .sitenav {
+        text-align: center;
+    }
+
+    .sitenav ul {
+        flex-direction: column;
+    }
+
+    .sitenav li {
+        margin: 10px 0;
+    }
 }
