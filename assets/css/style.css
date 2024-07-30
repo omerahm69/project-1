@@ -5,7 +5,7 @@ body *{
     box-sizing: border-box;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 100%;
-    line-height: 1.6;
+    line-height: 1.5;
 }
 
 /* Header style */
@@ -17,17 +17,13 @@ body *{
     padding:10px;
     margin-bottom: 2px;
     text-align:left;
-    line-height: 20px;
 }
 .header nav{
     display:flex;
     justify-content: space-between;
     align-items:center;
     height: 250px;
-    position:relative;
     margin-top: 20px;
-    line-height: 20px;
-    padding: 0 20px;
     text-align: center;
     text-shadow: 2px 2px 4px hsla(300, 4%, 5%, 0.7);
 }
@@ -38,12 +34,11 @@ body *{
 }
 .log-link{
     font-size:smaller;
-    padding: 0;
     padding:10px 10px
 }
 .logo p{
     text-align: left;
-    font-size: smaller;
+    font-size: small;
     color: hsl(222, 23%, 91%);
     text-shadow: 2px 2px 4px #dcd9d9e6;
     margin-left: 60px;
@@ -64,7 +59,6 @@ body *{
     font-size: large;
     width:100%;
     display: inline-block;
-
 }
 
 nav ul{
@@ -85,7 +79,6 @@ nav ul{
 .sitenav ul li{
     display:inline-block;
     padding:8px 12px;
-    position:-webkit-sticky;
     text-decoration: none;
     font-size:larger;
 }
@@ -101,7 +94,8 @@ nav ul{
     background-color: rgb(132, 133, 187);
     margin:0.25em;
     list-style: none;
-    text-shadow: 2px 2px 4px rgba(122, 114, 114, 0.5); }
+    text-shadow: 2px 2px 4px rgba(122, 114, 114, 0.5); 
+}
 
 a:link{color: rgb(50, 50, 201);}
 a:visited{color: white;}
@@ -117,7 +111,6 @@ a:active{color: rgb(54, 68, 220);}
     width: 100%;
     margin-bottom : 5px;
     background: rgb(213, 220, 235);
-    position:relative;
     gap: 15px;
 }
 
@@ -125,10 +118,8 @@ a:active{color: rgb(54, 68, 220);}
     
     flex:1 1 45%;
     order:2;
-    right:0%;
     max-width: 46%;
     background-color: aliceblue;
-    position: relative;
     font-size: 14px;
     padding:10px 10px 10px 20px ;
     line-height: 1.5em;
@@ -137,15 +128,13 @@ a:active{color: rgb(54, 68, 220);}
 }
 
 .content img{
-    margin-bottom: 10px;
-    margin-top: 10px;
+    margin:10px 0;
     max-width:100%;
     max-height:100%;
-
 }
 
 .aside1{
-    padding: 10px 10px 20px 10px;
+    padding: 10px 10px 20px;
     max-width:25%;
     position:sticky;
     flex:1 2 25%;
@@ -158,11 +147,9 @@ a:active{color: rgb(54, 68, 220);}
 }
 
 .aside1 img, .aside2 img{
-    margin:auto;
+    margin:10px auto;
     max-width: 100%;
     max-height: 100%;
-    margin-top: 10px;
-    margin-bottom: 10px;
 }
 
 .aside2{
@@ -183,9 +170,6 @@ a:active{color: rgb(54, 68, 220);}
 .content, .aside1, .aside2 h2{
     font-size: large;
     padding:5px 10px;
-    
-
-
 }
 
 iframe{
@@ -203,9 +187,8 @@ p::first-letter{
 }
 
 .content p,.side1 p, .side2 p {
-    margin-left: 5px;
-    margin-right: 5px;
-    text-decoration: none;
+    margin-left: 0 5px;
+    
 }
 
 fieldset{
@@ -215,9 +198,8 @@ fieldset{
 
 label{ color:rgb(14, 14, 15);
     padding:5px 10px;
-    margin-top: 10px;
+    margin-top: 10px 0 8px;
     display: flex;
-    margin-bottom:  8px;
     font-weight: bold;
 
 }
@@ -237,9 +219,6 @@ textarea {
 }
 
 button{
-    /*align-items: center;
-    margin-top: 15px;
-    padding:5px 0;*/
     display: block;
     width: 100%;
     padding: 10px;
@@ -251,7 +230,7 @@ button{
     font-size: 16px;
 }
 button:hover {
-    background-color: #2f50f1;
+    background-color: #93959f;
 }
 
 footer .note{
