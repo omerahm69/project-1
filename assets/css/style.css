@@ -29,22 +29,24 @@ body *{
     line-height: 20px;
     padding: 0 20px;
     text-align: center;
+    text-shadow: 2px 2px 4px hsla(300, 4%, 5%, 0.7);
 }
 
 .logo{
-    /*vertical-align: middle;*/
+    
     padding:0px 10px 10px 0px;
 }
 .log-link{
-
     font-size:smaller;
     padding: 0;
-    /*vertical-align: middle;*/
-    padding:20px 50px
+    padding:10px 10px
 }
 .logo p{
     text-align: left;
     font-size: smaller;
+    color: hsl(222, 23%, 91%);
+    text-shadow: 2px 2px 4px #dcd9d9e6;
+    margin-left: 60px;
 }
 
 .logo img{
@@ -55,21 +57,15 @@ body *{
 .header h1 {
     padding:10px 2px;
     align-items:center;
-    margin-top:px;
+    margin-top:10px;
     margin-bottom: 2px;
+    color: rgb(219, 219, 228);
     color:white;
     font-size: large;
     width:100%;
     display: inline-block;
 
 }
-/*.header p{
-    padding:5px 2px;
-    margin-top:20px;
-    color:rgb(18, 17, 17);
-    width:100%;
-}*/
-
 
 nav ul{
     list-style: none;
@@ -83,7 +79,7 @@ nav ul{
     float:right;
     margin:10px;
     min-height:auto;
-    text-emphasis-color: rgb(153, 153, 240);
+    text-emphasis-color: rgb(203, 203, 210);
 }
 
 .sitenav ul li{
@@ -100,16 +96,16 @@ nav ul{
     text-decoration: none;
     font-weight:bolder;
     font-size:xx-large;
-    border:1px solid #dfaaaa;
+    border:1px solid #858383;
     border-radius:  0.5em;
     background-color: rgb(132, 133, 187);
     margin:0.25em;
     list-style: none;
-}
+    text-shadow: 2px 2px 4px rgba(122, 114, 114, 0.5); }
 
 a:link{color: rgb(50, 50, 201);}
 a:visited{color: white;}
-a:hover{color: rgb(38, 12, 231);}
+a:hover{color: rgb(15, 15, 205);}
 a:active{color: rgb(54, 68, 220);}
 
 /*End Header style */
@@ -177,11 +173,19 @@ a:active{color: rgb(54, 68, 220);}
     order:3;
     background-color: rgb(194, 218, 237);
     text-align: left;
-    margin-bottom: 2px;
+    margin-bottom: 5px;
     font-size: 14px;
     line-height: 1.5em;
     list-style-position: inside;
     text-decoration:none;
+}
+
+.content, .aside1, .aside2 h2{
+    font-size: large;
+    padding:5px 10px;
+    
+
+
 }
 
 iframe{
