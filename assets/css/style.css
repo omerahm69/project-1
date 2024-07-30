@@ -8,47 +8,48 @@ body *{
     line-height: 1.6;
 }
 
+/* Header style */
 .header{
-    height:300px;
+    height:50vh;
     background-image: url("../images/The-old-city-of-Massawa-in-Eritrea-05271413329F708F.webp");
     background-size: cover;
     background-position: center;
-    position: sticky;
-    padding:0px 0px 2px 0px;
+    padding:10px;
     margin-bottom: 2px;
     text-align:left;
     line-height: 20px;
-    /*background: rgba(171, 168, 168, 0.4);*/
 }
-/*.header::before {
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    
-}*/
+.header nav{
+    display:flex;
+    justify-content: space-between;
+    align-items:center;
+    height: 250px;
+    position:relative;
+    margin-top: 20px;
+    line-height: 20px;
+    padding: 0 20px;
+    text-align: center;
+}
 
-.class logo{
-    vertical-align: middle;
+.logo{
+    /*vertical-align: middle;*/
     padding:0px 10px 10px 0px;
 }
-.class log-link{
-    display:flex;
-    margin-right: 20px;
+.log-link{
+
     font-size:smaller;
     padding: 0;
-    line-height: 20px;
-    vertical-align: middle;
+    /*vertical-align: middle;*/
     padding:20px 50px
 }
 .logo p{
     text-align: left;
-    padding: 82px 0px;
     font-size: smaller;
-    
+}
 
+.logo img{
+    height: 70px;
+    vertical-align: middle;
 }
 
 .header h1 {
@@ -66,16 +67,9 @@ body *{
     padding:5px 2px;
     margin-top:20px;
     color:rgb(18, 17, 17);
-    
     width:100%;
 }*/
 
-nav{
-    display:flex;
-    padding: 7% 6%;
-    justify-content: space-between;
-    align-items:start;
-}
 
 nav ul{
     list-style: none;
@@ -94,12 +88,10 @@ nav ul{
 
 .sitenav ul li{
     display:inline-block;
-    list-style: none;
     padding:8px 12px;
-    position:relative;
+    position:-webkit-sticky;
     text-decoration: none;
     font-size:larger;
-
 }
 
 .sitenav nav ul li a{
@@ -112,7 +104,7 @@ nav ul{
     border-radius:  0.5em;
     background-color: rgb(132, 133, 187);
     margin:0.25em;
-    vertical-align: middle;
+    list-style: none;
 }
 
 a:link{color: rgb(50, 50, 201);}
@@ -120,20 +112,7 @@ a:visited{color: white;}
 a:hover{color: rgb(38, 12, 231);}
 a:active{color: rgb(54, 68, 220);}
 
-.logo img{
-    display: flex;
-    float:left;
-    max-width:70px;
-    height: 70px;
-    margin-bottom: 20px;
-    line-height: 5PX;
-    width: 400px;
-    height: auto;
-    vertical-align: middle;
-    padding: 0px 5px 10px 5px;
-
-}
-
+/*End Header style */
 .main{
     display:flex;
     justify-content: space-between;
@@ -213,8 +192,8 @@ iframe{
 }
 .content .side1,.aside2 li span{
     font-weight: bold;
-
 }
+
 p::first-letter{
     font-size: 1.5rem;
 }
