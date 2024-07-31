@@ -12,6 +12,7 @@ body *{
 .header{
     height:50vh;
     background-image: url("../images/The-old-city-of-Massawa-in-Eritrea-05271413329F708F.webp");
+    filter:contrast(96%);
     background-size: cover;
     background-position: center;
     padding:10px;
