@@ -5,7 +5,7 @@ body *{
     box-sizing: border-box;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 100%;
-    line-height: 1.5;
+    line-height: 1.6;
 }
 
 /* Header style */
@@ -41,7 +41,7 @@ body *{
     font-size: small;
     color: hsl(222, 23%, 91%);
     text-shadow: 2px 2px 4px #dcd9d9e6;
-    margin-left: 60px;
+    margin-left: 50px;
 }
 
 .logo img{
@@ -141,7 +141,7 @@ a:active{color: rgb(54, 68, 220);}
     order:1;
     background-color: rgb(158, 184, 206);
     text-align: left;
-    font-size: 14px;
+    font-size: 15px;
     margin-bottom: 2px;
     line-height: 1.5em;
 }
@@ -161,14 +161,13 @@ a:active{color: rgb(54, 68, 220);}
     background-color: rgb(194, 218, 237);
     text-align: left;
     margin-bottom: 5px;
-    font-size: 14px;
+    font-size: 16px;
     line-height: 1.5em;
     list-style-position: inside;
     text-decoration:none;
 }
 
 .content, .aside1, .aside2 h2{
-    font-size: large;
     padding:5px 10px;
 }
 
