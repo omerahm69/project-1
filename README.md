@@ -116,13 +116,11 @@ Local Deployment
 
 Remote Deployment
     The site was deployed to the GitHub pages. If you have forked or cloned the repository the steps to deploy are:
-    
-    1. On GitHub.com, navigate to your repository 
-    2. Navigate to the settings tab
-    3. Click on the tab called 'pages' on the left-hand side
-    4. From the source drop-down list under the heading Build and Deployment, select main.
-    5. The page will then provide the link to the website https://omerahm69.github.io/project-1/
-
+   1. On GitHub.com, navigate to your repository
+   2. Navigate to the settings tab
+   3. Click on the tab cvalled "pages" on the left-hand side
+   4. From the source drop-down list under the heading Build and Deployment, select main.
+   5. The page will then provide the link to the website https://omerahm69.github.io/project-1/
 ## Credits 
 
 ### Content 
