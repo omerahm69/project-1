@@ -81,7 +81,7 @@ In addition, you may also use this section to discuss plans for additional featu
 - HTML
   - No errors were returned when passing through the official 
   1. Index
-
+  https://validator.w3.org/nu/?doc=https%3A%2F%2Fomerahm69.github.io%2Fproject-1%2F
   2. About us
   [W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fomerahm69.github.io%2Fproject-1%2Fabout-us.html)
 3. Urban heritage of Massawa
