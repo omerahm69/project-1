@@ -7,12 +7,10 @@ The goals of the project are:
 
 Wireframe Below is the design I have chosen to build the site. The design is consistent throughout the site. The site has five pages: Home, About Us, the Urban Heritage of Massawa, Our Activities and Contact Us.
 
-![Skärmbild 2024-07-31 115655_contact_us](:\Users\omer\OneDrive\Skrivbord\project-1\assets\readme\Webdesign.png)
+![Skärmbild 2024-07-31 115655_contact_us](:/Users/omer/OneDrive/Skrivbord/project-1/assets/readme/Webdesign.png)
 
 
-![Screenshot 2024-05-11 at 23 35 16](C:\Users\omer\OneDrive\Skrivbord\project-1\assets\readme\Webdesign.png)
-
-![Responsice Mockup](C:\Users\omer\OneDrive\Skrivbord\project-1\assets\readme\Skärmbild 2024-07-31 203313_responsive.png)
+![Responsice Mockup](:/Users/omer/OneDrive/Skrivbord/project-1/assets/readme/Skärmbild 2024-07-31 203313_responsive.png)
 ## Features
 The main feature of the website is its simplicity.
 - As a user, I need to navigate through the website easily. The horizontal, fixed text-based navigation bar makes it possible.
@@ -28,7 +26,7 @@ The main feature of the website is its simplicity.
 
 ![Nav Bar]![navigation](https://github.com/user-attachments/assets/e41573a8-d520-467d-9d5a-fa4567e05eef)
 
-__Content, aside2 and aside2__
+__Content, aside1 and aside2__
 - The content is organized into meaningful sections with appropriate headings and subheadings. This improves readability and allows users to quickly find the information they are looking for.It can be about Massawa as a city, its location and history and the urban heritage initiative. Images are used to complement the text and they are relevant to the content.
 There is also a consistent styling throughout the webpages by using consistent fonts, color and spaces.
 I addition to, the webpages are responsive, to ensure that the layout adjusts to different screen sizes. This is crucial for providing a good user experience on both desktop amd mobile devices.
