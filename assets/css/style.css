@@ -144,6 +144,7 @@ a:active{color: rgb(54, 68, 220);}
     font-size: 15px;
     margin-bottom: 2px;
     line-height: 1.5em;
+    list-style-position: inside;
 }
 
 .aside1 img, .aside2 img{
