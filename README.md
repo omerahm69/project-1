@@ -24,13 +24,19 @@ The main feature of the website is its simplicity.
 
 - __Navigation Bar__
 
-  - This section will allow the user to easily navigate from page to page across all devices without having to revert back to the previous page via the ‘back’ button.
+- The navigation menu is prominently place, making it easy for users to find and access different sections of the website. Using a horizontal navigation bar is a common and a user-friendly design choice.
 
 ![Nav Bar]![navigation](https://github.com/user-attachments/assets/e41573a8-d520-467d-9d5a-fa4567e05eef)
 
 __Content, aside2 and aside2__
-- Here the user will find different text and facts about Massawa as a city, its location and histtry and the urban heritage initiative
+- The content is organized into meaningful sections with appropriate headings and subheadings. This improves readability and allows users to quickly find the information they are looking for.It can be about Massawa as a city, its location and history and the urban heritage initiative. Images are used to complement the text and they are relevant to the content.
+There is also a consistent styling throughout the webpages by using consistent fonts, color and spaces.
+I addition to, the webpages are responsive, to ensure that the layout adjusts to different screen sizes. This is crucial for providing a good user experience on both desktop amd mobile devices.
 
+__Footer__
+  - The footer section includes links to the relevant social media sites for the initiative and a mail address.
+  . The links will open to a new tab to allow easy navigation for the user.
+  - The footer is valuable to the user as it encourages them to keep connected via social media or e-mail.
 __Index__
   Index:
 - The home page shows the site name with a logo of the civil initiative of Massawa Urban Heritage called AKAN and a welcome text in the top left of the web page.
@@ -58,21 +64,6 @@ __Index__
 
 ![Contact us](https://github.com/user-attachments/assets/20f231d5-55d6-4851-bf4b-da92cbba7c54)
 
-- __Gallery__
-
-  - The gallery will provide the user with supporting images to see what the meet ups look like.
-  - This section is valuable to the user as they will be able to easily identify the types of events the organisation puts together.
-
-
-- __The Sign Up Page__
-
-  - This page will allow the user to get signed up to Love Running to start their running journey with the community. The user will be able specify if they would like to take part in road, trail or both types of running. The user will be asked to submit their full name and email address.
-
-
-For some/all of your features, you may choose to reference the specific project files that implement them.
-
-In addition, you may also use this section to discuss plans for additional features to be implemented in the future:
-
 
 ## Testing 
 
@@ -99,39 +90,38 @@ In addition, you may also use this section to discuss plans for additional featu
   Accessibility Testing
 ![Performance](https://github.com/user-attachments/assets/787e0d01-8a9b-4246-bde3-ccef679d29b4)
 
-### Unfixed Bugs
+### fixed Bugs
 -Bugs due to the types of images affected the loading time and this has been solved by converting the images to the web instead of the PNG
 
 ## Deployment
-Fork
+- __Fork__
     1. On Github.com, navigate to the 
     2. In the top-right corner of the page, click Fork
     3. By default, forks are named the same as their parent repositories. You can change the   name of the fork to distinguish it further
     4. Add a description to your fork
     5. Click Create to your fork
 
-Clone
+- __Clone__
     1. Above the list of files click the button that says 'Code'
     2. Copy the URL for the repository.
     3. Open Terminal. Change the directory to the location where you want the cloned directory
     4. Type git clone, and paste the URL https://omerahm69.github.io/project-1/
     5. Press Enter
 
-Local Deployment
+- __Local Deployment__
     1. Sign up to Gitpod
     2. Download the Gitpod browser extension.
     3. On GitHub.com, navigate to the
     4. Above the list of files click the button that says's 'Gitpod'
 
-Remote Deployment
+- __Remote Deployment__
     The site was deployed to the GitHub pages. If you have forked or cloned the repository the steps to deploy are:
-    
-    1. On GitHub.com, navigate to your repository 
-    2. Navigate to the settings tab
-    3. Click on the tab called 'pages' on the left-hand side
-    4. From the source drop-down list under the heading Build and Deployment, select main.
-    5. The page will then provide the link to the website https://omerahm69.github.io/project-1/
-
+   1. On GitHub.com, navigate to your repository
+   2. Navigate to the settings tab
+   3. Click on the tab cvalled "pages" on the left-hand side
+   4. From the source drop-down list under the heading Build and Deployment, select main.
+   5. The page will then provide the link to the website https://omerahm69.github.io/project-1/
+      
 ## Credits 
 
 ### Content 
