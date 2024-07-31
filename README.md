@@ -90,37 +90,38 @@ __Index__
   Accessibility Testing
 ![Performance](https://github.com/user-attachments/assets/787e0d01-8a9b-4246-bde3-ccef679d29b4)
 
-### Unfixed Bugs
+### fixed Bugs
 -Bugs due to the types of images affected the loading time and this has been solved by converting the images to the web instead of the PNG
 
 ## Deployment
-Fork
+- __Fork__
     1. On Github.com, navigate to the 
     2. In the top-right corner of the page, click Fork
     3. By default, forks are named the same as their parent repositories. You can change the   name of the fork to distinguish it further
     4. Add a description to your fork
     5. Click Create to your fork
 
-Clone
+- __Clone__
     1. Above the list of files click the button that says 'Code'
     2. Copy the URL for the repository.
     3. Open Terminal. Change the directory to the location where you want the cloned directory
     4. Type git clone, and paste the URL https://omerahm69.github.io/project-1/
     5. Press Enter
 
-Local Deployment
+- __Local Deployment__
     1. Sign up to Gitpod
     2. Download the Gitpod browser extension.
     3. On GitHub.com, navigate to the
     4. Above the list of files click the button that says's 'Gitpod'
 
-Remote Deployment
+- __Remote Deployment__
     The site was deployed to the GitHub pages. If you have forked or cloned the repository the steps to deploy are:
    1. On GitHub.com, navigate to your repository
    2. Navigate to the settings tab
    3. Click on the tab cvalled "pages" on the left-hand side
    4. From the source drop-down list under the heading Build and Deployment, select main.
    5. The page will then provide the link to the website https://omerahm69.github.io/project-1/
+      
 ## Credits 
 
 ### Content 
