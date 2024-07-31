@@ -175,6 +175,7 @@ a:active{color: rgb(54, 68, 220);}
 iframe{
     display:block;
     height: 400px;
+    width:100%;
     margin-top: 15px;
 }
 .content .side1,.aside2 li span{
