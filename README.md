@@ -13,7 +13,7 @@ Wireframe Below is the design I have chosen to build the site. The design is con
 
 ![Screenshot 2024-05-11 at 23 35 16](./assets/readme/Webdesign.png)
 
-![Responsice Mockup](https://githu)
+![Responsice Mockup](C:\Users\omer\OneDrive\Skrivbord\project-1\assets\readme\Skärmbild 2024-07-31 203313_responsive.png)
 ## Features
 The main feature of the website is its simplicity.
 - As a user, I need to navigate through the website easily. The horizontal, fixed text-based navigation bar makes it possible.
@@ -49,7 +49,7 @@ __Index__
 
   - The user here will find information about the initiative, its goals and stages and objectives of the initiative.
 
-![The About us](https://github.com/user-attachments/assets/6c0c95fa-9807-4b7a-824a-7a1fd9103946)
+![The About us](C:\Users\omer\OneDrive\Skrivbord\project-1\assets\readme\Skärmbild 2024-07-31 150219_about_us2.png)
 
  __Urban Heritag of Massawa__
 
