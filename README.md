@@ -7,12 +7,13 @@ The goals of the project are:
 
 Wireframe Below is the design I have chosen to build the site. The design is consistent throughout the site. The site has five pages: Home, About Us, the Urban Heritage of Massawa, Our Activities and Contact Us.
 
-![Responsice Mockup](https://github.com)
+![Skärmbild 2024-07-31 115655_contact_us](https://github.com/user-attachments/assets/797e6fba-16ac-43b0-87eb-b845ce4cf70f)
 
 Wireframe Below is the design I have chosen to build the site. The design is consistent throughout the site. The site has five pages: Home, About Us, the Urban Heritage of Massawa, Our Activities and Contact Us.
 
 ![Screenshot 2024-05-11 at 23 35 16](./assets/readme/Webdesign.png)
 
+![Responsice Mockup](https://githu)
 ## Features
 The main feature of the website is its simplicity.
 - As a user, I need to navigate through the website easily. The horizontal, fixed text-based navigation bar makes it possible.
@@ -22,7 +23,7 @@ The main feature of the website is its simplicity.
 
 ### Existing Features in each page 
 
-- __Navigation Bar__
+ __Navigation Bar__
 
 - The navigation menu is prominently place, making it easy for users to find and access different sections of the website. Using a horizontal navigation bar is a common and a user-friendly design choice.
 
@@ -39,28 +40,26 @@ __Footer__
   - The footer is valuable to the user as it encourages them to keep connected via social media or e-mail.
 __Index__
   Index:
-- The home page shows the site name with a logo of the civil initiative of Massawa Urban Heritage called AKAN and a welcome text in the top left of the web page.
+- The home page shows the site name with a logo link of the civil initiative of Massawa Urban Heritage called AKAN and a welcome text in the top left of the web page.
 - To the right a horizontal, fixed text-based navigation bar with a hover effect with five main pages.
 
 ![Index](https://github.com/user-attachments/assets/870ba80b-8073-4b9a-a218-bb376de29f3a)
 
-- __About us:__
+ __About us:__
 
-  - The club ethos section will allow the user to see the benefits of joining the Love Running meetups, as well as the benefits of running overall.
-  - This user will find more information about the initiative and its goals.
+  - The user here will find information about the initiative, its goals and stages and objectives of the initiative.
 
 ![The About us](https://github.com/user-attachments/assets/6c0c95fa-9807-4b7a-824a-7a1fd9103946)
 
-- __Urban Heritag of Massawa__
+ __Urban Heritag of Massawa__
 
-  - This section will allow the user to see 
+  - This page will allow the user to get information about Urban Heritage in Eritrea in general as its in the capital Asmara which was accepted and registered in the final list of World Heritage in 2017 and an overview of the urban history of the ancient city of Massawa. 
 
 ![The Urban heritage](https://github.com/user-attachments/assets/ab46eef6-4fee-4840-aaff-d6a48f6fe3b7)
 
-- __The contact us__ 
+ __The contact us__ 
 
-  - The footer section includes links to the relevant social media sites for Love Running. The links will open to a new tab to allow easy navigation for the user. 
-  - The footer is valuable to the user as it encourages them to keep connected via social media
+  - This page will allow and encorage the user and the whole Eritrean diasporato to be part of the initiative and it includes a form to fill to get on board with us to achieve our goals.
 
 ![Contact us](https://github.com/user-attachments/assets/20f231d5-55d6-4851-bf4b-da92cbba7c54)
 
@@ -68,14 +67,15 @@ __Index__
 ## Testing 
 
 ### Validator Testing
-
-- HTML
-  - No errors were returned when passing through the official 
+ __HTML__ 
+   
   1. Index
-  https://validator.w3.org/nu/?doc=https%3A%2F%2Fomerahm69.github.io%2Fproject-1%2F
-  2. About us
+ -[W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fomerahm69.github.io%2Fproject-1%2F) 
+
+  3. About us
   [W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fomerahm69.github.io%2Fproject-1%2Fabout-us.html)
-3. Urban heritage of Massawa
+
+  4. Urban heritage of Massawa
    [W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fomerahm69.github.io%2Fproject-1%2Furban-heritage-of-massawa.html)
 
     4. Our activities
@@ -84,9 +84,11 @@ __Index__
     5. Contact Us
     [W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fomerahm69.github.io%2Fproject-1%2Fcontact-us.html)
 
-- CSS
+ __CSS__ 
+ 
   - No errors were found when passing through the official [(Jigsaw) validator]( https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fomerahm69.github.io%2Fproject-1%2Fassets%2Fcss%2Fstyle.css&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
-
+ 
+ __Accessibility__
   Accessibility Testing
 ![Performance](https://github.com/user-attachments/assets/787e0d01-8a9b-4246-bde3-ccef679d29b4)
 
@@ -94,27 +96,28 @@ __Index__
 -Bugs due to the types of images affected the loading time and this has been solved by converting the images to the web instead of the PNG
 
 ## Deployment
-- __Fork__
+  
+__Fork__
     1. On Github.com, navigate to the 
     2. In the top-right corner of the page, click Fork
-    3. By default, forks are named the same as their parent repositories. You can change the   name of the fork to distinguish it further
+    3. By default, forks are named the same as their parent repositories. You can change the   name of the fork to   distinguish it further
     4. Add a description to your fork
     5. Click Create to your fork
 
-- __Clone__
+ __Clone__
     1. Above the list of files click the button that says 'Code'
     2. Copy the URL for the repository.
     3. Open Terminal. Change the directory to the location where you want the cloned directory
     4. Type git clone, and paste the URL https://omerahm69.github.io/project-1/
     5. Press Enter
 
-- __Local Deployment__
+ __Local Deployment__
     1. Sign up to Gitpod
     2. Download the Gitpod browser extension.
     3. On GitHub.com, navigate to the
     4. Above the list of files click the button that says's 'Gitpod'
 
-- __Remote Deployment__
+ __Remote Deployment__
     The site was deployed to the GitHub pages. If you have forked or cloned the repository the steps to deploy are:
    1. On GitHub.com, navigate to your repository
    2. Navigate to the settings tab
