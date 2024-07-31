@@ -7,13 +7,12 @@ The goals of the project are:
 
 Wireframe Below is the design I have chosen to build the site. The design is consistent throughout the site. The site has five pages: Home, About Us, the Urban Heritage of Massawa, Our Activities and Contact Us.
 
-![Skärmbild 2024-07-31 115655_contact_us](https://github.com/user-attachments/assets/797e6fba-16ac-43b0-87eb-b845ce4cf70f)
-C:\Users\omer\OneDrive\Skrivbord\project-1\assets\readme\Skärmbild 2024-07-31 203313_responsive.png
-Wireframe Below is the design I have chosen to build the site. The design is consistent throughout the site. The site has five pages: Home, About Us, the Urban Heritage of Massawa, Our Activities and Contact Us.
+![Skärmbild 2024-07-31 115655_contact_us](:\Users\omer\OneDrive\Skrivbord\project-1\assets\readme\Webdesign.png)
+
 
 ![Screenshot 2024-05-11 at 23 35 16](C:\Users\omer\OneDrive\Skrivbord\project-1\assets\readme\Webdesign.png)
 
-![Responsice Mockup](https://github.com/user-attachments/assets/readme\Skärmbild 2024-07-31 203313_responsive.png)
+![Responsice Mockup](C:\Users\omer\OneDrive\Skrivbord\project-1\assets\readme\Skärmbild 2024-07-31 203313_responsive.png)
 ## Features
 The main feature of the website is its simplicity.
 - As a user, I need to navigate through the website easily. The horizontal, fixed text-based navigation bar makes it possible.
