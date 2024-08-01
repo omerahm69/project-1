@@ -181,7 +181,7 @@ p::first-letter{
 }
 .content,.side1, .side2 p {
     font-size: 1rem;
-    margin-left: 0 2px;
+    margin-left: 2px;
 }
 fieldset{
     border:none;
@@ -189,7 +189,7 @@ fieldset{
 }
 label{ color:rgb(14, 14, 15);
     padding:5px 10px;
-    margin-top: 10px  8px;
+    margin-top: 10px;
     display: flex;
     font-weight: bold;
 }
@@ -369,35 +369,6 @@ h2 {
 }
 p {
     font-size: 0.9rem;
-}
-@media (max-width: 480px) {
-.header nav {
-    flex-direction: column;
-    height: auto;
-}
-.logo-container {
-    flex-direction: column;
-    align-items: center;
-}
-.sitenav {
-    text-align: center;
-    width: 100%;
-}
-.sitenav ul {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-.sitenav ul li {
-    display: block;
-    width: 100%;
-    text-align: center;
-    padding: 10px 0;
-}
-.sitenav ul li a {
-    display: block;
-    padding: 10px;
-    font-size: 16px;
 }
 /* Adjust font sizes for smaller screens */
 body {
