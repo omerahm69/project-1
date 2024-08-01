@@ -92,9 +92,9 @@ nav ul{
     list-style: none;
     text-shadow: 2px 2px 4px rgba(122, 114, 114, 0.5);
 }
-.outline{
+/*.outline{
     text-shadow: 1px 0 0 #090909, 0 -1px 0 #090909, 0 1px 0 #131212, -1px 0 0 #090909;
-}
+}*/
 a:link{color: rgb(50, 50, 201);}
 a:visited{color: white;}
 a:hover{color: rgb(15, 15, 205);}
