@@ -74,7 +74,7 @@ __Index__
  __HTML__ 
    
   1. Index
- [W3C validator](https://validator.w3.org/nu/doc=https%3A%2F%2Fomerahm69.github.io%2Fproject-1%2Findex.html)
+ [W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fomerahm69.github.io%2Fproject-1%2Findex.html)
   2. About us
  [W3C validator](https://validator.w3.org/nu/doc=https%3A%2F%2Fomerahm69.github.io%2Fproject-1%2Fabout-us.html)
 
