@@ -93,10 +93,10 @@ __Index__
   - No errors were found when passing through the official [(Jigsaw) validator]( https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fomerahm69.github.io%2Fproject-1%2Fassets%2Fcss%2Fstyle.css&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
  
  __Accessibility__
-  Accessibility Testing
+  
 ![Performance](https://github.com/user-attachments/assets/787e0d01-8a9b-4246-bde3-ccef679d29b4)
 
-### fixed Bugs
+### Fixed Bugs
 -Bugs due to the types of images affected the loading time and this has been solved by converting the images to the web instead of the PNG
 
 ## Deployment
