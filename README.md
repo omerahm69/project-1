@@ -53,7 +53,7 @@ __Index__
 
   - The user here will find information about the initiative, its goals and stages and objectives of the initiative.
 
-![The About us](https://github.com/omerahm69/project-1/blob/main/assets/images/Sk%C3%A4rmbild%202024-07-31%20150219_about_us2.png)
+![The About us](https://github.com/omerahm69/project-1/blob/main/assets/images/Sk%C3%A4rmbild%202024-07-31%20115418_aboutus_html.pn)
 
  __Urban Heritag of Massawa__
 
@@ -95,8 +95,8 @@ __Index__
   
 ![Performance](https://github.com/user-attachments/assets/787e0d01-8a9b-4246-bde3-ccef679d29b4)
 
-### Fixed Bugs
--Bugs due to the types of images affected the loading time and this has been solved by converting the images to the web instead of the PNG
+### Un fixed Bugs
+-Bugs due to responsive design with mobile screen size, I managed to fix it to some extent, but the menu disappeared at some point, which is not optimal.  
 
 ## Deployment
   
