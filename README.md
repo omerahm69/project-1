@@ -7,10 +7,10 @@ The goals of the project are:
 
 Wireframe Below is the design I have chosen to build the site. The design is consistent throughout the site. The site has five pages: Home, About Us, the Urban Heritage of Massawa, Our Activities and Contact Us.
 
-![Skärmbild 2024-07-31 115655_contact_us](:/Users/omer/OneDrive/Skrivbord/project-1/assets/readme/Webdesign.png)
+![Responsice Mockup](C:\Users\omer\OneDrive\Skrivbord\project-1\assets\images\Webdesign.png)
 
+![Responsice Mockup](C:\Users\omer\OneDrive\Skrivbord\project-1\assets\images\Skärmbild 2024-07-31 203313_responsive.png)
 
-![Responsice Mockup](:/Users/omer/OneDrive/Skrivbord/project-1/assets/readme/Skärmbild 2024-07-31 203313_responsive.png)
 ## Features
 The main feature of the website is its simplicity.
 - As a user, I need to navigate through the website easily. The horizontal, fixed text-based navigation bar makes it possible.
@@ -24,29 +24,35 @@ The main feature of the website is its simplicity.
 
 - The navigation menu is prominently place, making it easy for users to find and access different sections of the website. Using a horizontal navigation bar is a common and a user-friendly design choice.
 
-![Nav Bar]![navigation](https://github.com/user-attachments/assets/e41573a8-d520-467d-9d5a-fa4567e05eef)
+![navigation](https://github.com/user-attachments/assets/e41573a8-d520-467d-9d5a-fa4567e05eef)
 
 __Content, aside1 and aside2__
 - The content is organized into meaningful sections with appropriate headings and subheadings. This improves readability and allows users to quickly find the information they are looking for.It can be about Massawa as a city, its location and history and the urban heritage initiative. Images are used to complement the text and they are relevant to the content.
 There is also a consistent styling throughout the webpages by using consistent fonts, color and spaces.
 I addition to, the webpages are responsive, to ensure that the layout adjusts to different screen sizes. This is crucial for providing a good user experience on both desktop amd mobile devices.
 
+![navigation](C:\Users\omer\OneDrive\Skrivbord\project-1\assets\images\Skärmbild 2024-08-01 083944_content.png)
+
+
 __Footer__
   - The footer section includes links to the relevant social media sites for the initiative and a mail address.
   . The links will open to a new tab to allow easy navigation for the user.
   - The footer is valuable to the user as it encourages them to keep connected via social media or e-mail.
+
+![Footer](C:\Users\omer\OneDrive\Skrivbord\project-1\assets\images\Skärmbild 2024-08-01 085655_footer.png)
+    
 __Index__
   Index:
 - The home page shows the site name with a logo link of the civil initiative of Massawa Urban Heritage called AKAN and a welcome text in the top left of the web page.
 - To the right a horizontal, fixed text-based navigation bar with a hover effect with five main pages.
 
-![Index](https://github.com/user-attachments/assets/870ba80b-8073-4b9a-a218-bb376de29f3a)
+![Index](C:\Users\omer\OneDrive\Skrivbord\project-1\assets\images\Skärmbild 2024-08-01 083731_index_2.png)
 
  __About us:__
 
   - The user here will find information about the initiative, its goals and stages and objectives of the initiative.
 
-![The About us](C:\Users\omer\OneDrive\Skrivbord\project-1\assets\readme\Skärmbild 2024-07-31 150219_about_us2.png)
+![The About us](C:\Users\omer\OneDrive\Skrivbord\project-1\assets\images\Skärmbild 2024-08-01 084313_about_us2.png)
 
  __Urban Heritag of Massawa__
 
@@ -67,19 +73,19 @@ __Index__
  __HTML__ 
    
   1. Index
- -[W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fomerahm69.github.io%2Fproject-1%2F) 
+ -![W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fomerahm69.github.io%2Fproject-1%2F) 
 
   3. About us
-  [W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fomerahm69.github.io%2Fproject-1%2Fabout-us.html)
+  ![W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fomerahm69.github.io%2Fproject-1%2Fabout-us.html)
 
   4. Urban heritage of Massawa
-   [W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fomerahm69.github.io%2Fproject-1%2Furban-heritage-of-massawa.html)
+   ![W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fomerahm69.github.io%2Fproject-1%2Furban-heritage-of-massawa.html)
 
     4. Our activities
-   [W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fomerahm69.github.io%2Fproject-1%2Four-activities.html)
+   ![W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fomerahm69.github.io%2Fproject-1%2Four-activities.html)
 
     5. Contact Us
-    [W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fomerahm69.github.io%2Fproject-1%2Fcontact-us.html)
+    ![W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fomerahm69.github.io%2Fproject-1%2Fcontact-us.html)
 
  __CSS__ 
  
