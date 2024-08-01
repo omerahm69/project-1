@@ -74,17 +74,17 @@ __Index__
  __HTML__ 
    
   1. Index
- ![W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fomerahm69.github.io%2Fproject-1%2Findex.html)
+ ![W3C validator](https://validator.w3.org/nu/doc=https%3A%2F%2Fomerahm69.github.io%2Fproject-1%2Findex.html)
   2. About us
- ![W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fomerahm69.github.io%2Fproject-1%2Fabout-us.html)
+ ![W3C validator](https://validator.w3.org/nu/doc=https%3A%2F%2Fomerahm69.github.io%2Fproject-1%2Fabout-us.html)
 
   3. Urban Heritage of Massawa
- ![W3C validator](https://validator.w3.org/nu/?showsource=yes&doc=https%3A%2F%2Fomerahm69.github.io%2Fproject-1%2Furban-heritage-of-massawa.html#l41c148)
+ ![W3C validator](https://validator.w3.org/nu/doc=https%3A%2F%2Fomerahm69.github.io%2Fproject-1%2Furban-heritage-of-massawa.html#l41c148)
   4. Our Activities
- ![W3C validator](https://validator.w3.org/nu/?showsource=yes&doc=https%3A%2F%2Fomerahm69.github.io%2Fproject-1%2Four-activities.html#l41c148)
+ ![W3C validator](https://validator.w3.org/nu/doc=https%3A%2F%2Fomerahm69.github.io%2Fproject-1%2Four-activities.html#l41c148)
 
   5. Contact Us
- ![W3C validator](https://validator.w3.org/nu/?showsource=yes&doc=https%3A%2F%2Fomerahm69.github.io%2Fproject-1%2Fcontact-us.html#l41c148)
+ ![W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fomerahm69.github.io%2Fproject-1%2Fcontact-us.html#l41c148)
 
  __CSS__ 
  
