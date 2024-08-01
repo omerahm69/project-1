@@ -7,9 +7,10 @@ The goals of the project are:
 
 Wireframe Below is the design I have chosen to build the site. The design is consistent throughout the site. The site has five pages: Home, About Us, the Urban Heritage of Massawa, Our Activities and Contact Us.
 
-![Responsice Mockup](C:\Users\omer\OneDrive\Skrivbord\project-1\assets\images\Webdesign.png)
 
-![Responsice Mockup](C:\Users\omer\OneDrive\Skrivbord\project-1\assets\images\Skärmbild 2024-07-31 203313_responsive.png)
+![Wireframe](https://github.com/omerahm69/project-1/blob/main/assets/images/Webdesign.png)
+
+![Responsice Mockup](https://github.com/omerahm69/project-1/blob/main/assets/images/Sk%C3%A4rmbild%202024-07-31%20203313_responsive.png)
 
 ## Features
 The main feature of the website is its simplicity.
@@ -31,7 +32,7 @@ __Content, aside1 and aside2__
 There is also a consistent styling throughout the webpages by using consistent fonts, color and spaces.
 I addition to, the webpages are responsive, to ensure that the layout adjusts to different screen sizes. This is crucial for providing a good user experience on both desktop amd mobile devices.
 
-![navigation](C:\Users\omer\OneDrive\Skrivbord\project-1\assets\images\Skärmbild 2024-08-01 083944_content.png)
+![navigation](https://github.com/omerahm69/project-1/blob/main/assets/images/Sk%C3%A4rmbild%202024-08-01%20083944_content.png)
 
 
 __Footer__
@@ -39,20 +40,20 @@ __Footer__
   . The links will open to a new tab to allow easy navigation for the user.
   - The footer is valuable to the user as it encourages them to keep connected via social media or e-mail.
 
-![Footer](C:\Users\omer\OneDrive\Skrivbord\project-1\assets\images\Skärmbild 2024-08-01 085655_footer.png)
+![Footer](https://github.com/omerahm69/project-1/blob/main/assets/images/Sk%C3%A4rmbild%202024-08-01%20085655_footer.png)
     
 __Index__
-  Index:
+  
 - The home page shows the site name with a logo link of the civil initiative of Massawa Urban Heritage called AKAN and a welcome text in the top left of the web page.
 - To the right a horizontal, fixed text-based navigation bar with a hover effect with five main pages.
 
-![Index](C:\Users\omer\OneDrive\Skrivbord\project-1\assets\images\Skärmbild 2024-08-01 083731_index_2.png)
+![Index](https://github.com/omerahm69/project-1/blob/main/assets/images/Sk%C3%A4rmbild%202024-08-01%20083731_index_2.png)
 
  __About us:__
 
   - The user here will find information about the initiative, its goals and stages and objectives of the initiative.
 
-![The About us](C:\Users\omer\OneDrive\Skrivbord\project-1\assets\images\Skärmbild 2024-08-01 084313_about_us2.png)
+![The About us](https://github.com/omerahm69/project-1/blob/main/assets/images/Sk%C3%A4rmbild%202024-07-31%20150219_about_us2.png)
 
  __Urban Heritag of Massawa__
 
@@ -64,7 +65,7 @@ __Index__
 
   - This page will allow and encorage the user and the whole Eritrean diasporato to be part of the initiative and it includes a form to fill to get on board with us to achieve our goals.
 
-![Contact us](https://github.com/user-attachments/assets/20f231d5-55d6-4851-bf4b-da92cbba7c54)
+![Contact us](https://github.com/omerahm69/project-1/blob/main/assets/images/Sk%C3%A4rmbild%202024-07-31%20115655_contact_us.png)
 
 
 ## Testing 
@@ -73,29 +74,28 @@ __Index__
  __HTML__ 
    
   1. Index
- -![W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fomerahm69.github.io%2Fproject-1%2F) 
+ [W3C validator](https://validator.w3.org/nu/doc=https%3A%2F%2Fomerahm69.github.io%2Fproject-1%2Findex.html)
+  2. About us
+ [W3C validator](https://validator.w3.org/nu/doc=https%3A%2F%2Fomerahm69.github.io%2Fproject-1%2Fabout-us.html)
 
-  3. About us
-  ![W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fomerahm69.github.io%2Fproject-1%2Fabout-us.html)
+  3. Urban Heritage of Massawa
+ [W3C validator](https://validator.w3.org/nu/doc=https%3A%2F%2Fomerahm69.github.io%2Fproject-1%2Furban-heritage-of-massawa.html#l41c148)
+  4. Our Activities
+ [W3C validator](https://validator.w3.org/nu/doc=https%3A%2F%2Fomerahm69.github.io%2Fproject-1%2Four-activities.html#l41c148)
 
-  4. Urban heritage of Massawa
-   ![W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fomerahm69.github.io%2Fproject-1%2Furban-heritage-of-massawa.html)
-
-    4. Our activities
-   ![W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fomerahm69.github.io%2Fproject-1%2Four-activities.html)
-
-    5. Contact Us
-    ![W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fomerahm69.github.io%2Fproject-1%2Fcontact-us.html)
+  5. Contact Us
+ [W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fomerahm69.github.io%2Fproject-1%2Fcontact-us.html#l41c148)
 
  __CSS__ 
  
-  - No errors were found when passing through the official [(Jigsaw) validator]( https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fomerahm69.github.io%2Fproject-1%2Fassets%2Fcss%2Fstyle.css&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
+  - No errors were found when passing through the official
+    ![(Jigsaw) validator]( https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fomerahm69.github.io%2Fproject-1%2Fassets%2Fcss%2Fstyle.css&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
  
  __Accessibility__
-  Accessibility Testing
+  
 ![Performance](https://github.com/user-attachments/assets/787e0d01-8a9b-4246-bde3-ccef679d29b4)
 
-### fixed Bugs
+### Fixed Bugs
 -Bugs due to the types of images affected the loading time and this has been solved by converting the images to the web instead of the PNG
 
 ## Deployment
