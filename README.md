@@ -136,7 +136,7 @@ __Fork__
 
 - I also make use of Learning Web Design, 5th Edition
   A Beginner's Guide to HTML, CSS, JAVASCRIPT, AND WEB GRAPHICS
-- For responsive design I have make use of this YouTube link:
+- Additionally, for responsive design I have make use of this YouTube link:
   https://www.youtube.com/watch?v=8eFeIFKAKHw
   
  
