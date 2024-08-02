@@ -89,7 +89,7 @@ __Index__
  __CSS__ 
  
   - No errors were found when passing through the official
-    ![(Jigsaw) validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fomerahm69.github.io%2Fproject-1%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=sv)
+    [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fomerahm69.github.io%2Fproject-1%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=sv)
  
  __Accessibility__
   
