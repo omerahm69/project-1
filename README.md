@@ -53,7 +53,7 @@ __Index__
 
   - The user here will find information about the initiative, its goals and stages and objectives of the initiative.
 
-![The About us](https://github.com/omerahm69/project-1/blob/main/assets/images/Sk%C3%A4rmbild%202024-07-31%20115418_aboutus_html.pn)
+![The About us](https://github.com/omerahm69/project-1/blob/main/assets/images/Sk%C3%A4rmbild%202024-07-31%20115418_aboutus_html.png)
 
  __Urban Heritag of Massawa__
 
@@ -79,9 +79,9 @@ __Index__
  [W3C validator](https://validator.w3.org/nu/doc=https%3A%2F%2Fomerahm69.github.io%2Fproject-1%2Fabout-us.html)
 
   3. Urban Heritage of Massawa
- [W3C validator](https://validator.w3.org/nu/doc=https%3A%2F%2Fomerahm69.github.io%2Fproject-1%2Furban-heritage-of-massawa.html#l41c148)
+ [W3C validator](https://validator.w3.org/nu/?showsource=yes&doc=https%3A%2F%2Fomerahm69.github.io%2Fproject-1%2Furban-heritage-of-massawa.html#l41c148)
   4. Our Activities
- [W3C validator](https://validator.w3.org/nu/doc=https%3A%2F%2Fomerahm69.github.io%2Fproject-1%2Four-activities.html#l41c148)
+ [W3C validator](https://validator.w3.org/nu/?showsource=yes&doc=https%3A%2F%2Fomerahm69.github.io%2Fproject-1%2Four-activities.html#l41c148)
 
   5. Contact Us
  [W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fomerahm69.github.io%2Fproject-1%2Fcontact-us.html#l41c148)
@@ -89,7 +89,7 @@ __Index__
  __CSS__ 
  
   - No errors were found when passing through the official
-    ![(Jigsaw) validator]( https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fomerahm69.github.io%2Fproject-1%2Fassets%2Fcss%2Fstyle.css&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
+    [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fomerahm69.github.io%2Fproject-1%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=sv)
  
  __Accessibility__
   
@@ -136,6 +136,9 @@ __Fork__
 
 - I also make use of Learning Web Design, 5th Edition
   A Beginner's Guide to HTML, CSS, JAVASCRIPT, AND WEB GRAPHICS
+- Additionally, for responsive design I have make use of this YouTube link:
+  https://www.youtube.com/watch?v=8eFeIFKAKHw
+  
  
 
 ### Media
