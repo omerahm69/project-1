@@ -53,7 +53,7 @@ __Index__
 
   - The user here will find information about the initiative, its goals and stages and objectives of the initiative.
 
-![The About us](C:\Users\omer\OneDrive\Skrivbord\project-1\assets\images\Skärmbild 2024-07-31 115418_aboutus_html.png)
+![The About us](https://github.com/omerahm69/project-1/blob/main/assets/images/Sk%C3%A4rmbild%202024-07-31%20115418_aboutus_html.png)
 
  __Urban Heritag of Massawa__
 
