@@ -1,22 +1,26 @@
 /* common styling for all pages */
-body *{
+ *{
     margin: 0;
     padding:0;
     box-sizing: border-box;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 100%;
-    line-height: 1.6;
+    }
+body{
+font-family: Arial, Helvetica, sans-serif;
 }
+
 /* Header style */
 .header{
-    height:50vh;
+    /*height:50vh;*/
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:10px 20px;
     background-image: url("../images/The-old-city-of-Massawa-in-Eritrea-05271413329F708F.webp");
     filter:contrast(96%);
     background-size: cover;
-    background-position: center;
-    padding:10px;
-    margin-bottom: 2px;
-    text-align:left;
+    background-position: center center;
+    background-repeat: no-repeat;
+    min-height: 100hv;
     z-index: 2;
 }
 .header nav{
@@ -25,7 +29,7 @@ body *{
     align-items:center;
     height: 250px;
     margin-top: 20px;
-    text-align: center;
+    text-align: right;
     text-shadow: 2px 2px 4px hsla(300, 4%, 5%, 0.7);
 }
 .nav-toggle{
@@ -56,20 +60,20 @@ body *{
     margin-bottom: 2px;
     color: rgb(219, 219, 228);
     color:white;
-    font-size: large;
+    font-size: small;
     width:100%;
     display: inline-block;
 }
 nav ul{
     list-style: none;
     padding:0;
-    margin:0;
+    margin:auto;
 }
 .sitenav{
     flex:1;
     text-align: right;
     float:right;
-    margin:10px;
+    margin:auto;
     min-height:auto;
     text-emphasis-color: rgb(203, 203, 210);
 }
@@ -77,14 +81,14 @@ nav ul{
     display:inline-block;
     padding:8px 12px;
     text-decoration: none;
-    font-size:xx-large;
+    font-size:large;
 }
 .sitenav nav ul li a{
     display:inline-block;
     padding:.5em 20px;
     text-decoration: none;
-    font-weight:bolder;
-    font-size:large;
+    font-weight:100;
+    font-size:small;
     border:1px solid #858383;
     border-radius:  0.5em;
     background-color: rgb(132, 133, 187);
@@ -99,12 +103,11 @@ a:active{color: rgb(54, 68, 220);}
 /*End Header style */
 .main{
     display:flex;
-    justify-content: space-between;
     flex-wrap: wrap;
     width: 100%;
     margin-bottom : 5px;
     background: rgb(213, 220, 235);
-    gap: 15px;
+
 }
 .content{
     flex:1 1 45%;
@@ -354,7 +357,7 @@ footer .note a:hover {
                 padding: 20px;
             }
         }
- /* Adjust font sizes for smaller screens */
+ # Adjust font sizes for smaller screens 
 body {
     font-size: 0.9rem;
 }
@@ -380,5 +383,38 @@ h2 {
 p {
     font-size: 0.8rem;
 }
+
+/*
+
+@media (max-width: 768px) {
+    .nav-toggle-label {
+        display: block;
+        background: #444;
+        padding: 10px;
+        position: absolute;
+        right: 20px;
+        top: 15px;
+        border-radius: 5px;
+    }
+    .sitenav {
+        display: none;
+        position: absolute;
+        right: 0;
+        top: 60px;
+        background: #333;
+        width: 200px;
+        border-radius: 5px;
+    }
+    .sitenav ul {
+        flex-direction: column;
+    }
+    .sitenav ul li {
+        text-align: right;
+        padding: 10px;
+        border-bottom: 1px solid #555;
+    }
+    .nav-toggle:checked + .nav-toggle-label + .sitenav {
+        display: block;
+    }
 }
-}
+*/
