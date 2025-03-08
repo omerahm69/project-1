@@ -25,7 +25,7 @@ The main feature of the website is its simplicity.
 
 - The navigation menu is prominently place, making it easy for users to find and access different sections of the website. Using a horizontal navigation bar is a common and a user-friendly design choice.
 
-![navigation](https://github.com/user-attachments/assets/e41573a8-d520-467d-9d5a-fa4567e05eef)
+![navigation](https://github.com/omerahm69/project-1/blob/main/assets/images/navigation.png)
 
 __Content, aside1 and aside2__
 - The content is organized into meaningful sections with appropriate headings and subheadings. This improves readability and allows users to quickly find the information they are looking for.It can be about Massawa as a city, its location and history and the urban heritage initiative. Images are used to complement the text and they are relevant to the content.
@@ -48,7 +48,7 @@ __Index__
 - The home page shows the site name with a logo link of the civil initiative of Massawa Urban Heritage called AKAN and a welcome text in the top left of the web page.
 - To the right a horizontal, fixed text-based navigation bar with a hover effect with five main pages.
 
-![Index](https://github.com/omerahm69/project-1/blob/main/assets/images/index_2025-03-08%20133008.png)
+![Index](https://github.com/omerahm69/project-1/blob/main/assets/images/index_2025-03-08%20133008.pngs)
 
  __About us:__
 
