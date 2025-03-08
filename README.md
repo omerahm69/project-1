@@ -48,7 +48,7 @@ __Index__
 - The home page shows the site name with a logo link of the civil initiative of Massawa Urban Heritage called AKAN and a welcome text in the top left of the web page.
 - To the right a horizontal, fixed text-based navigation bar with a hover effect with five main pages.
 
-![Index](https://github.com/omerahm69/project-1/blob/main/assets/images/index_2025-03-08%20133008.pngs)
+![Index](https://github.com/omerahm69/project-1/blob/main/assets/images/index_2025-03-08%20133008.png)
 
  __About us:__
 
