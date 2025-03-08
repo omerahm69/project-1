@@ -32,7 +32,8 @@ __Content, aside1 and aside2__
 There is also a consistent styling throughout the webpages by using consistent fonts, color and spaces.
 I addition to, the webpages are responsive, to ensure that the layout adjusts to different screen sizes. This is crucial for providing a good user experience on both desktop amd mobile devices.
 
-![navigation](https://github.com/omerahm69/project-1/blob/main/assets/images/Sk%C3%A4rmbild%202024-08-01%20083944_content.png)
+![navigation](https://github.com/omerahm69/project-1/blob/main/assets/images/navigation.png)
+
 
 
 __Footer__
@@ -47,31 +48,31 @@ __Index__
 - The home page shows the site name with a logo link of the civil initiative of Massawa Urban Heritage called AKAN and a welcome text in the top left of the web page.
 - To the right a horizontal, fixed text-based navigation bar with a hover effect with five main pages.
 
-![Index](https://github.com/omerahm69/project-1/blob/main/assets/images/Sk%C3%A4rmbild%202024-08-01%20083731_index_2.png)
+![Index](https://github.com/omerahm69/project-1/blob/main/assets/images/index_2025-03-08%20133008.png)
 
  __About us:__
 
   - The user here will find information about the initiative, its goals and stages and objectives of the initiative.
 
-![The About us](https://github.com/omerahm69/project-1/blob/main/assets/images/Sk%C3%A4rmbild%202024-07-31%20115418_aboutus_html.png)
+![The About us](https://github.com/omerahm69/project-1/blob/main/assets/images/About_2025-03-08%20133118.png)
 
  __Urban Heritag of Massawa__
 
-  - This page will allow the user to get information about Urban Heritage in Eritrea in general as its in the capital Asmara which was accepted and registered in the final list of World Heritage in 2017 and an overview of the urban history of the ancient city of Massawa. 
+  - This page will allow the user to get information about Urban Heritage in Eritrea in general as its in the capital Asmara which was accepted and registered in the final list of World Heritage in 2017 and an overview of the urban history of the ancient city of Massawa.
 
-![The Urban heritage](https://github.com/user-attachments/assets/ab46eef6-4fee-4840-aaff-d6a48f6fe3b7)
+![The Urban heritage](https://github.com/omerahm69/project-1/blob/main/assets/images/U.Heritage_%202025-03-08%20133213.png)
 
- __The contact us__ 
+ __The contact us__
 
   - This page will allow and encorage the user and the whole Eritrean diasporato to be part of the initiative and it includes a form to fill to get on board with us to achieve our goals.
 
-![Contact us](https://github.com/omerahm69/project-1/blob/main/assets/images/Sk%C3%A4rmbild%202024-07-31%20115655_contact_us.png)
+![Contact us](https://github.com/omerahm69/project-1/blob/main/assets/images/Contact_2025-03-08%20133343.png)
 
 
-## Testing 
+## Testing
 
 ### Validator Testing
- __HTML__ 
+ __HTML__
    
   1. Index
  [W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fomerahm69.github.io%2Fproject-1%2Findex.html)
