@@ -20,7 +20,7 @@ font-family: Arial, Helvetica, sans-serif;
     background-position: center center;
     background-repeat: no-repeat;
     z-index: 2;
-    min-height: 60vh;
+    min-height: 70vh;
 }
 .header nav{
     display:flex;

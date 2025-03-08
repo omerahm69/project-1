@@ -19,7 +19,7 @@ The main feature of the website is its simplicity.
 - As a user, I need more options to get in touch with the initiative, and the possibility of using the E-mail address or Facebook makes it easier.
 - As a user, I need to see consistency throughout the website, choosing a few colors and using them throughout the website gives me this consistency.
 
-### Existing Features in each page 
+### Existing Features in each page
 
  __Navigation Bar__
 
