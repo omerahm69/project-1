@@ -21,6 +21,7 @@ font-family: Arial, Helvetica, sans-serif;
     background-repeat: no-repeat;
     z-index: 2;
     min-height: 70vh;
+    will-change: transform, opacity;
 }
 .header nav{
     display:flex;
