@@ -18,17 +18,26 @@
                         <h1> Massawa U. Heritage</h1>
                         <p> Welcome to AKAN</p></div>
                     </div>
+                        <!-- Language Selector -->
+                        <div class="language-selector">
+                            <label for="language"> Language:</label>
+                            <select id="language" onchange="changeLanguage(this.value)">
+                                <option value="en">English</option>
+                                <option value="ar">العربية</option>
+                                <option value="ti">ትግርኛ</option>
+                            </select>
+                        </div>
                     <input type="checkbox" id="nav-toggle" class="nav-toggle" aria-label="Toggle navigation">
                 <label for="nav-toggle" class="nav-toggle-label">
                     <span class="hamburger"></span>
                 </label>
                 <div class="sitenav">
                     <ul>
-                        <li><a href="index.html">Home</a></li>
-                        <li><a href="about-us.html">About Us</a></li>
-                        <li><a href="Urban-heritage-of-massawa.html">Urban Heritage of Massawa </a></li>
-                        <li><a href="our-activities.html">Our Activities</a></li>
-                        <li><a href="contact-us.html">Contact Us</a></li>
+                        <li><a href="index.html" id ="home">Home</a></li>
+                        <li><a href="about-us.html" id="about">About Us</a></li>
+                        <li><a href="Urban-heritage-of-massawa.html" id="urban heritage">Urban Heritage of Massawa </a></li>
+                        <li><a href="our-activities.html" id="our activities">Our Activities</a></li>
+                        <li><a href="contact-us.html" id="contact">Contact Us</a></li>
                     </ul>
                 </div>
             </nav>
@@ -96,5 +105,6 @@
             </p>
         </div>
     </footer>
+    <script src="assets/my_scripts.js"></script>
 </body>
 </html>

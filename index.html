@@ -18,6 +18,15 @@
                             <h1> Massawa U. Heritage</h1>
                             <p> Welcome to AKAN</p></div>
                         </div>
+                        <!-- Language Selector -->
+                    <div class="language-selector">
+                        <label for="language">🌍 Language:</label>
+                        <select id="language" onchange="changeLanguage(this.value)">
+                            <option value="en">English</option>
+                            <option value="ar">العربية</option>
+                            <option value="ti">ትግርኛ</option>
+                        </select>
+                    </div>
                         <input type="checkbox" id="nav-toggle" class="nav-toggle" aria-label="Toggle navigation">
                     <label for="nav-toggle" class="nav-toggle-label">
                         <span class="hamburger"></span>
@@ -93,5 +102,6 @@
             </p>
         </div>
     </footer>
+    <script src="assets/my_scripts.js"></script>
 </body>
 </html>
