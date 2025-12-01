@@ -15,12 +15,12 @@
                     <div class="logo">
                         <a href="index.html" class="log-link"> <img src="assets/images/IMG-20231231-WA0008.webp" alt="logo" loading="lazy"></a>
                         <div class="banner-text">
-                            <h1> Massawa U. Heritage</h1>
-                            <p> Welcome to AKAN</p></div>
+                            <h1 data-i18n="header.title"> Massawa U. Heritage</h1>
+                            <p data-i18n="header.subtitle"> Welcome to AKAN</p></div>
                         </div>
                         <!-- Language Selector -->
                     <div class="language-selector">
-                        <label for="language">🌍 Language:</label>
+                        <label for="language" data-i18n="language.label"> Language:</label>
                         <select id="language" onchange="changeLanguage(this.value)">
                             <option value="en">English</option>
                             <option value="ar">العربية</option>
@@ -33,11 +33,11 @@
                     </label>
                 <nav class="sitenav">
                     <ul>
-                        <li><a href="index.html">Home</a></li>
-                        <li><a href="about-us.html">About Us</a></li>
-                        <li><a href="Urban-heritage-of-massawa.html">Urban Heritage of Massawa </a></li>
-                        <li><a href="our-activities.html">Our Activities</a></li>
-                        <li><a href="contact-us.html">Contact Us</a></li>
+                        <li><a href="index.html" data-i18n="nav.home">Home</a></li>
+                        <li><a href="about-us.html" data-i18n="nav.about">About Us</a></li>
+                        <li><a href="Urban-heritage-of-massawa.html" data-i18n="nav.heritage">Urban Heritage of Massawa </a></li>
+                        <li><a href="our-activities.html" data-i18n="nav.activities">Our Activities</a></li>
+                        <li><a href="contact-us.html" data-i18n="nav.contact">Contact Us</a></li>
                     </ul>
                 </div>
             </nav>
@@ -45,8 +45,9 @@
     </header>
     <div class="main">
             <div class="content">
-                <h2>Massawa Urban Heritage: Discover the Rich History of Eritrea's Coastal Gem</h2>
-                <p> The city is considered a mosaic carrying in its folds a mixture of residents and dialects, like all
+                <h2 data-i18n="section.intro.title">
+                    Massawa Urban Heritage: Discover the Rich History of Eritrea's Coastal Gem</h2>
+                <p data-i18n="section.intro.text"> The city is considered a mosaic carrying in its folds a mixture of residents and dialects, like all
                 the ports in the world. <br> The immigrants and merchants coming from all countries settled in it, mixed
                 with its residents, and set up their businesses. Everyone lived in it like an open museum that differed from
                 the rest of their surroundings.</p>
@@ -55,8 +56,8 @@
                 <img src="assets/images/Entrance_of_Old_Arab_Souk.webp" alt="Entrance of Old Arab souk in Massawa", loading="lazy">
             </div>
             <div class="aside1">
-                    <h3>Geographical overview of the city of Massawa</h3>
-                    <p> Massawa is the second most important city and the main
+                    <h3 data-i18n="section.geo.title">Geographical overview of the city of Massawa</h3>
+                    <p data-i18n="section.geo.text"> Massawa is the second most important city and the main
                     port in Eritrea, it is located on the coast of the Red Sea, one of the most important international trade lines, and it
                     was an important historical port for several centuries.
                     The city is located on the southwestern coast of the Red
@@ -73,20 +74,20 @@
                     <img src="assets/images/The_most_landmarks.webp" alt="markets", loading="lazy">
             </div>
             <div class="aside2">
-                    <h2>The timeline of Massawa</h2>
+                    <h2 data-i18n="section.timeline.title">The timeline of Massawa</h2>
                     <ol>
-                            <li><span> 615:</span>The migration of Companions of the Prophet to the land of Abyssinia via the port of Massawa</li>
-                            <li><span> 700:</span> Islamic-style emirates in East Africa</li>
-                            <li><span> 1500:</span> The era of marine discovery & the Portuguese occupation</li>
-                            <li><span> 1557:</span> The Islamic Ottoman Eyalet of Abyssinia.</li>
-                            <li><span> 1865:</span>  The Egyptian Khedive Administration</li>
-                            <li><span> 1869:</span> Opening of Suez Canal</li>
-                            <li><span> 1885:</span> The European Italian Colonialism</li>
+                            <li data-i18n="section.timeline.item1"><span> 615:</span>The migration of Companions of the Prophet to the land of Abyssinia via the port of Massawa</li>
+                            <li data-i18n="section.timeline.item2"><span> 700:</span> Islamic-style emirates in East Africa</li>
+                            <li data-i18n="section.timeline.item3"><span> 1500:</span> The era of marine discovery & the Portuguese occupation</li>
+                            <li data-i18n="section.timeline.item4"><span> 1557:</span> The Islamic Ottoman Eyalet of Abyssinia.</li>
+                            <li data-i18n="section.timeline.item5"><span> 1865:</span>  The Egyptian Khedive Administration</li>
+                            <li data-i18n="section.timeline.item6"><span> 1869:</span> Opening of Suez Canal</li>
+                            <li data-i18n="section.timeline.item7"><span> 1885:</span> The European Italian Colonialism</li>
                     </ol>
                         <img src="assets/images/Sahaba_masjid.webp" alt="The companions Mosque">
                         <img src="assets/images/Torino_hotell.webp" alt="The Torino hotel from the Italian colony">
                         <img src="assets/images/Architectural_style.webp" alt="The different architectural historical buildings in Massawa">
-                    <p>The historic city of Massawa is located on the island of Baida,
+                    <p data-i18n="section.timeline.description">The historic city of Massawa is located on the island of Baida,
                         where the island is almost equally divided between the city and the port,
                         which is considered the city's lifestyle.
                         The old city covers an area of 2,5 square kilometers and has 300 buildings
@@ -97,11 +98,12 @@
     <footer>
         <div class="note">
             <p>Copyright & copy; 2023 by Massawa Urban Heritage. Would you like more information and Questions?
-                <a href="mailto:akan.heritage.1@gmail.com"> Mail the webmaster in Massawa Urban Heritage </a>
-                <a href="https://www.facebook.com/share/p/rYbbZzmT5W6XmmBj/?mibextid=WC7FNe"> facebook </a>
+                <a href="mailto:akan.heritage.1@gmail.com" data-i18n="footer.email"> Mail the webmaster in Massawa Urban Heritage </a>
+                <a href="https://www.facebook.com/share/p/rYbbZzmT5W6XmmBj/?mibextid=WC7FNe" data-i18n="footer.facebook"> facebook </a>
             </p>
         </div>
     </footer>
     <script src="assets/my_scripts.js"></script>
+    <script src="translate.js"></script>
 </body>
 </html>

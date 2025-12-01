@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Massawa U. Heritage</title>
+    <title data-i18n="global.title">Massawa U. Heritage</title>
     <meta name="description" content="Massawa,heritage,Eritrean history,mausua">
     <meta name="author" content="Omer Omer">
     <link href="assets/css/style.css" rel="stylesheet" type="text/css">
@@ -19,8 +19,8 @@
                         <p> Welcome to AKAN</p></div>
                     </div>
                         <!-- Language Selector -->
-                        <div class="language-selector">
-                            <label for="language"> Language:</label>
+                        <div class="language-selector" >
+                            <label for="language" data-i18n="global.language"> Language:</label>
                             <select id="language" onchange="changeLanguage(this.value)">
                                 <option value="en">English</option>
                                 <option value="ar">العربية</option>
@@ -33,11 +33,11 @@
                 </label>
                 <div class="sitenav">
                     <ul>
-                        <li><a href="index.html" id ="home">Home</a></li>
-                        <li><a href="about-us.html" id="about">About Us</a></li>
-                        <li><a href="Urban-heritage-of-massawa.html" id="urban heritage">Urban Heritage of Massawa </a></li>
-                        <li><a href="our-activities.html" id="our activities">Our Activities</a></li>
-                        <li><a href="contact-us.html" id="contact">Contact Us</a></li>
+                        <li><a href="index.html" data-i18n="nav.home">Home</a></li>
+                        <li><a href="about-us.html" data-i18n="nav.about">About Us</a></li>
+                        <li><a href="Urban-heritage-of-massawa.html" data-i18n="nav.heritage">Urban Heritage of Massawa </a></li>
+                        <li><a href="our-activities.html" data-i18n="nav.activities">Our Activities</a></li>
+                        <li><a href="contact-us.html" data-i18n="nav.contact">Contact Us</a></li>
                     </ul>
                 </div>
             </nav>
@@ -45,15 +45,15 @@
     </header>
     <div class="main">
             <div class="content">
-                <h2>From Exile to Homecoming: Rediscovering Massawa's Urban Heritage</h2>
-                    <p> An Eritrean civil initiative that seeks to document and protect the
+                <h2 data-i18n="about.title">From Exile to Homecoming: Rediscovering Massawa's Urban Heritage</h2>
+                    <p data-i18n="about.intro"> An Eritrean civil initiative that seeks to document and protect the
                     urban heritage of the ancient city of Massawa and spread awareness
                     about it. Its idea was launched by the Samhar Cultural Association in
                     Stockholm, Sweden in February 2020, coinciding with the 30th
                     anniversary of the liberation of Massawa from the Ethiopian
                     occupation </p>
-                    <h3>The goal of the initiative </h3>
-                    <p> The inscription of the ancient city of Massawa (the city
+                    <h3 data-i18n="about.goalText">The goal of the initiative </h3>
+                    <p data-i18n="about.title"> The inscription of the ancient city of Massawa (the city
                     of urban diversity in Africa) on the World Heritage List of
                     the United Nations Educational, Scientific and Cultural
                     Organization (UNESCO) </p>
@@ -62,30 +62,30 @@
                         </iframe>
                     </div>
             <div class="aside1">
-                    <h3> Stages and objectives of the initiative </h3>
+                    <h3  data-i18n="about.stage1"> Stages and objectives of the initiative </h3>
                 <ol>
-                    <li>
+                    <li data-i18n="about.stage2">
                     <strong> Launching the idea of the initiative: </strong>
                     The idea of the initiative was launched in Stockholm,
                     Sweden, in February 2020, coinciding with the 30th
                     anniversary of the city’s liberation from the Ethiopian
                     occupation.</li>
-                    <li>
+                    <li data-i18n="about.stage3">
                     <strong> Teamwork Composition:   </strong>
                     A specialized founding working group has been formed for the initiative.</li>
-                    <li>
+                    <li data-i18n="about.stage4">
                     <strong>  Formation of the old city of Massawa Body group:</strong>
                     Work to form this group is currently ongoing</li>
-                    <li>
+                    <li data-i18n="about.stage5">
                     <strong> Institutional building of the initiative:</strong>
                     The initiative was registered as a non-governmental organization in Norway at the end of 2023.</li>
                 </ol>
             </div>
             <div class="aside2">
-                    <h3> Stages of implementing the initiative Establishment stage</h3>
+                    <h3 data-i18n="about.implementationTitle"> Stages of implementing the initiative Establishment stage</h3>
                     <img src="assets/images/Steges_of_implementing.webp" alt="stages of implementation", loadning="lazy">
-                    <h4> First stage: </h4>
-                    <p>  1. Identifying the boundary of
+                    <h4  data-i18n="about.firstStageText1"> First stage: </h4>
+                    <p data-i18n="about.firstStageText2">  1. Identifying the boundary of
                         the concerned area to be
                         protected.
                         The historic city of Massawa has been identified in the old city on the island of Bazie, the Sahaba Mosque, and the Saraya Palace on Twalut Island.
@@ -99,12 +99,13 @@
         </div>
     <footer>
         <div class="note">
-            <p>Copyright & copy; 2023 by Massawa Urban Heritage. Would you like more information and Questions?
+            <p data-i18n="global.footer">Copyright & copy; 2023 by Massawa Urban Heritage. Would you like more information and Questions?
                 <a href="mailto:akan.heritage.1@gmail.com"> Mail the webmaster in Massawa Urban Heritage </a>
                 <a href="https://www.facebook.com/share/p/rYbbZzmT5W6XmmBj/?mibextid=WC7FNe"> facebook </a>
             </p>
         </div>
     </footer>
     <script src="assets/my_scripts.js"></script>
+    <script src="translate.js"></script>
 </body>
 </html>

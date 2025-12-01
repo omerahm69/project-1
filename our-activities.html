@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Massawa U. Heritage</title>
+    <title data-i18n="header.title">Massawa U. Heritage</title>
     <meta name="description" content="Massawa,heritage,Eritrean history, mausua">
     <meta name="author" content="Omer Omer">
     <link  href="assets/css/style.css" rel="stylesheet" type="text/css">
@@ -15,12 +15,12 @@
                 <div class="logo">
                     <a href="index.html" class="log-link"> <img src="assets/images/IMG-20231231-WA0008.webp" alt="logo", loading="lazy"></a>
                     <div class="banner-text">
-                        <h1> Massawa U. Heritage</h1>
-                    <p> Welcome to AKAN</p></div>
+                        <h1 data-i18n="header.title"> Massawa U. Heritage</h1>
+                    <p data-i18n="header.subtitle"> Welcome to AKAN</p></div>
                     </div>
                         <!-- Language Selector -->
                         <div class="language-selector">
-                            <label for="language">🌍 Language:</label>
+                            <label for="language" data-i18n="label.language"> Language:</label>
                             <select id="language" onchange="changeLanguage(this.value)">
                                 <option value="en">English</option>
                                 <option value="ar">العربية</option>
@@ -33,11 +33,11 @@
                 </label>
                 <div class="sitenav">
                     <ul>
-                        <li><a href="index.html">Home</a></li>
-                        <li><a href="about-us.html">About Us</a></li>
-                        <li><a href="Urban-heritage-of-massawa.html">Urban Heritage of Massawa </a></li>
-                        <li><a href="our-activities.html">Our Activities</a></li>
-                        <li><a href="contact-us.html">Contact Us</a></li>
+                        <li><a href="index.html" data-i18n="nav.home">Home</a></li>
+                        <li><a href="about-us.html" data-i18n="nav.about">About Us</a></li>
+                        <li><a href="Urban-heritage-of-massawa.html" data-i18n="nav.heritage">Urban Heritage of Massawa </a></li>
+                        <li><a href="our-activities.html" data-i18n="nav.activities">Our Activities</a></li>
+                        <li><a href="contact-us.html" data-i18n="nav.contact">Contact Us</a></li>
                     </ul>
                 </div>
             </nav>
@@ -75,5 +75,6 @@
             </div>
         </footer>
         <script src="assets/my_scripts.js"></script>
+        <script src="translate.js"></script>
 </body>
 </html>

@@ -1,0 +1,102 @@
+{
+  "site": { "title": "Massawa U. Heritage" },
+
+  "header": {
+    "title": "Massawa U. Heritage",
+    "subtitle": "Welcome to AKAN"
+  },
+
+  "language": {
+    "label": "🌍 Language:"
+  },
+
+  "nav": {
+    "home": "Home",
+    "about": "About Us",
+    "heritage": "Urban Heritage of Massawa",
+    "activities": "Our Activities",
+    "contact": "Contact Us"
+  },
+
+  "section": {
+    "intro": {
+      "title": "Massawa Urban Heritage: Discover the Rich History of Eritrea's Coastal Gem",
+      "text": "The city is considered a mosaic carrying in its folds a mixture of residents and dialects..."
+    },
+
+    "geo": {
+      "title": "Geographical overview of the city of Massawa",
+      "text": "Massawa is the second most important city and the main port in Eritrea..."
+    },
+
+    "timeline": {
+      "title": "The timeline of Massawa",
+      "item1": "615: The migration of Companions of the Prophet to Abyssinia via Massawa",
+      "item2": "700: Islamic-style emirates in East Africa",
+      "item3": "1500: The era of marine discovery & Portuguese occupation",
+      "item4": "1557: The Islamic Ottoman Eyalet of Abyssinia",
+      "item5": "1865: The Egyptian Khedive Administration",
+      "item6": "1869: Opening of Suez Canal",
+      "item7": "1885: European Italian Colonialism",
+
+      "description": "The historic city of Massawa is located on the island of Baida..."
+    }
+  },
+
+  "footer": {
+    "text": "Copyright © 2023 by Massawa Urban Heritage. Would you like more information?",
+    "email": "Mail the webmaster",
+    "facebook": "Facebook"
+  }
+}
+
+{
+  "about": {
+    "title": "From Exile to Homecoming: Rediscovering Massawa's Urban Heritage",
+    "intro": "An Eritrean civil initiative that seeks to document and protect the urban heritage of Massawa...",
+    "goalTitle": "The goal of the initiative",
+    "goalText": "The inscription of the ancient city of Massawa on the UNESCO World Heritage List.",
+    "stagesTitle": "Stages and objectives of the initiative",
+    "stage1": "Launching the idea of the initiative in 2020 in Stockholm.",
+    "stage2": "A specialized founding working group has been formed.",
+    "stage3": "Formation of the Old City working body is ongoing.",
+    "stage4": "The initiative was registered as an NGO in Norway in 2023.",
+    "implementationTitle": "Stages of implementing the initiative",
+    "firstStageTitle": "First stage:",
+    "firstStageText1": "Identifying the boundary of the area to be protected.",
+    "firstStageText2": "Determining a preliminary list of the most important historical buildings."
+  }
+}
+
+{
+  "nav": {
+    "home": "Home",
+    "about": "About Us",
+    "heritage": "Urban Heritage of Massawa",
+    "activities": "Our Activities",
+    "contact": "Contact Us"
+  },
+
+  "header": {
+    "title": "Massawa U. Heritage",
+    "subtitle": "Welcome to AKAN"
+  },
+
+  "mailing": {
+    "title": "Mailing List Sign up",
+    "desc1": "The initiative is open to ideas and further initiatives to spread out the goals of the initiative, to the whole Eritrean diaspora. Therefore, we encourage all Eritreans to get on board with us to achieve our goals. The first step is to be with us on our mailing list.",
+    "desc2": "Get news about the initiative sent to your own box and leave your message by suggestions you have for improvement",
+    "boldNote": "Please join our email list",
+    "usernameLabel": "Username (4 to 10 characters):",
+    "emailLabel": "E-mail:",
+    "messageLabel": "Message",
+    "messagePlaceholder": "Write your message here",
+    "submitButton": "Submit"
+  },
+
+  "footer": {
+    "text": "Copyright © 2023 by Massawa Urban Heritage. Would you like more information and Questions?",
+    "mail": "Mail the webmaster in Massawa Urban Heritage",
+    "facebook": "Facebook"
+  }
+}
