@@ -1,13 +1,15 @@
 {
-  "site": { "title": "Massawa U. Heritage" },
+  "site": {
+    "title": "Massawa U. Heritage"
+  },
 
   "header": {
     "title": "Massawa U. Heritage",
     "subtitle": "Welcome to AKAN"
   },
 
-  "language": {
-    "label": " Language:"
+  "label": {
+    "language": "Language:"
   },
 
   "nav": {
@@ -18,7 +20,7 @@
     "contact": "Contact Us"
   },
 
-  "section": {
+  "home": {
     "intro": {
       "title": "Massawa Urban Heritage: Discover the Rich History of Eritrea's Coastal Gem",
       "text": "The city is considered a mosaic carrying in its folds a mixture of residents and dialects"
@@ -38,19 +40,10 @@
       "item5": "1865: The Egyptian Khedive Administration",
       "item6": "1869: Opening of Suez Canal",
       "item7": "1885: European Italian Colonialism",
-
       "description": "The historic city of Massawa is located on the island of Baida"
     }
   },
 
-  "footer": {
-    "text": "Copyright © 2023 by Massawa Urban Heritage. Would you like more information?",
-    "email": "Mail the webmaster",
-    "facebook": "Facebook"
-  }
-}
-
-{
   "about": {
     "title": "From Exile to Homecoming: Rediscovering Massawa's Urban Heritage",
     "intro": "An Eritrean civil initiative that seeks to document and protect the urban heritage of Massawa",
@@ -65,21 +58,6 @@
     "firstStageTitle": "First stage:",
     "firstStageText1": "Identifying the boundary of the area to be protected.",
     "firstStageText2": "Determining a preliminary list of the most important historical buildings."
-  }
-}
-
-{
-  "nav": {
-    "home": "Home",
-    "about": "About Us",
-    "heritage": "Urban Heritage of Massawa",
-    "activities": "Our Activities",
-    "contact": "Contact Us"
-  },
-
-  "header": {
-    "title": "Massawa U. Heritage",
-    "subtitle": "Welcome to AKAN"
   },
 
   "mailing": {
@@ -92,6 +70,113 @@
     "messageLabel": "Message",
     "messagePlaceholder": "Write your message here",
     "submitButton": "Submit"
+  },
+
+  "contact": {
+    "title": "Contact Us",
+    "subtitle": "We would love to hear from you.",
+
+    "infoSection": {
+      "title": "Our Contact Information",
+      "addressLabel": "Address:",
+      "phoneLabel": "Phone:",
+      "emailLabel": "Email:",
+      "hoursLabel": "Opening Hours:",
+      "hoursValue": "Monday – Friday, 9:00–17:00"
+    },
+
+    "form": {
+      "title": "Send Us a Message",
+      "desc": "Fill out the form below and we will get back to you as soon as possible.",
+      "nameLabel": "Your Name",
+      "emailLabel": "Your Email",
+      "subjectLabel": "Subject",
+      "messageLabel": "Message",
+      "messagePlaceholder": "Write your message here...",
+      "submitButton": "Send Message",
+      "resetButton": "Clear Form"
+    },
+
+    "map": {
+      "title": "Find Us on the Map"
+    },
+
+    "success": {
+      "messageSent": "Your message has been sent successfully!"
+    },
+
+    "errors": {
+      "nameRequired": "Name is required.",
+      "emailRequired": "Email is required.",
+      "emailInvalid": "Please enter a valid email address.",
+      "messageRequired": "Message cannot be empty."
+    }
+  },
+
+  "activitiesPage": {
+    "main": {
+      "title": "Documenting History: The Journey of Protecting Massawa's Architectural Treasures",
+      "intro1": "As a stage of implementing the initiative, one of the first stages is preparing studies to collect and document information about the city. Three studies were prepared, after reviewing previous studies.",
+      "study1": "A Preliminary Study and Plan to Preserve and Restore the Old city of Massawa by UNESCO 1998",
+      "study2": "Study and Master plan for the old city of Massawa presented by Qatari Diar Real Estate Company in 2009"
+    },
+
+    "seminars": {
+      "title": "Seminars",
+      "subtitle": "Holding seminars and spreading awareness of the importance of preserving the city's heritage.",
+      "description": "Two seminars were held during the years 2020–2021",
+      "seminar1": "Seminar in Stockholm Sweden, February 2020"
+    },
+
+    "publications": {
+      "title": "Publication of studies about the ancient city of Massawa",
+      "description": "The initiative is open to publish some of their own studies in the coming future."
+    }
+  },
+
+  "urban": {
+    "conventionsTitle": "International conventions related to Urban Heritage",
+    "conventionsText": "The Convention of Heritage 1972: It is one of the most important tools to protect and maintain World Cultural Heritage. Most important organization in this field: UNESCO, World Heritage Centre (WHC), and ICOMOS.",
+
+    "methodologyTitle": "Urban heritage restoration Methodology and Tools",
+    "methodologyDescription": "The methodology and electronic toolkit developed by ArcHerNet will be used.",
+
+    "toolkitIntro": "This toolkit covers four main topics:",
+    "toolkitList": "Documentation, Damage Assessment, Legal framework terms, Planning.",
+
+    "eritreaTitle": "Urban Heritage in Eritrea",
+    "eritreaText": "Eritrea has a diverse urban heritage...",
+
+    "classificationTitle": "Classification of the urban heritage in Eritrea chronologically:",
+    "classification": {
+      "ancient": "Ancient Era: Adulis, Kohito, Matarah, Debarwa.",
+      "middle": "Middle Ages: Islamic civilization in Massawa and Dahlak.",
+      "modern": "Modern era: Asmara and Massawa."
+    },
+
+    "classificationText": "Ancient heritage is underground and requires archaeological research...",
+
+    "asmaraTitle": "Asmara... on the World Heritage List",
+    "asmaraText": "Asmara was registered on the UNESCO World Heritage List in 2017.",
+
+    "massawaOverviewTitle": "An overview of the urban history of the ancient city of Massawa",
+    "masterPlanTitle": "Old City master plan",
+
+    "divisionTitle": "The old city covers 2.50 km² with 8,000–9,000 residents in 1975.",
+    "divisionIntroTitle": "Division of the master plan of the old city",
+    "divisionText": "The city was planned according to Islamic medieval structures.",
+    "divisionSections": "The city is divided into four sections:",
+    "divisionList": "Downtown, North Sea Side, Market areas, Eastern and Southern neighborhoods.",
+
+    "briefTitle": "Brief about the urban heritage of Massawa",
+    "architectureText": "The architectural style reflects multiple eras.",
+    "architecture": {
+      "islamicArab": "Islamic Arabic Era (705–1557)",
+      "ottoman": "Islamic Ottoman Era (1557–1885)",
+      "italian": "Italian colonial era (1885–1941)"
+    },
+
+    "buildingTypes": "Historical buildings include mosques, markets, government buildings, banks, and hotels."
   },
 
   "footer": {
