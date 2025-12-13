@@ -10,25 +10,36 @@
 </head>
 <body>
     <header>
-        <div class="header">
-            <nav>
-                <div class="logo">
-                    <a href="index.html" class="log-link"> <img src="assets/images/IMG-20231231-WA0008.webp" alt="logo", loading="lazy"></a>
+        <div class="logo">
+                    <a href="index.html" class="log-link">
+                        <img src="assets/images/IMG-20231231-WA0008.webp" alt="logo" loading="lazy"
+                            data-i18n-alt="header_logo_alt">
+                    </a>
                     <div class="banner-text">
-                        <h1> Massawa U. Heritage</h1>
-                    <p> Welcome to AKAN</p></div>
+                        <h1 data-i18n="header_title">Massawa U. Heritage</h1>
+                        <p data-i18n="header_subtitle">Welcome to AKAN</p>
                     </div>
+                    <!-- Language Selector -->
+                    <div class="language-selector">
+                        <label for="language" data-i18n="language.label"> Language:</label>
+                        <select id="language" onchange="changeLanguage(this.value)">
+                            <option value="en">English</option>
+                            <option value="ar">العربية</option>
+                            <option value="ti">ትግርኛ</option>
+                        </select>
+                    </div>
+                </div>
                     <input type="checkbox" id="nav-toggle" class="nav-toggle" aria-label="Toggle navigation">
                 <label for="nav-toggle" class="nav-toggle-label">
                     <span class="hamburger"></span>
                 </label>
                 <div class="sitenav">
                     <ul>
-                        <li><a href="index.html">Home</a></li>
-                        <li><a href="about-us.html">About Us</a></li>
-                        <li><a href="Urban-heritage-of-massawa.html">Urban Heritage of Massawa </a></li>
-                        <li><a href="our-activities.html">Our Activities</a></li>
-                        <li><a href="contact-us.html">Contact Us</a></li>
+                        <li><a href="index.html" data-i18n="nav_home">Home</a></li>
+                        <li><a href="about-us.html" data-i18n="nav_about">About Us</a></li>
+                        <li><a href="Urban-heritage-of-massawa.html" data-i18n="nav_heritage">U.Heritage of Massawa </a></li>
+                        <li><a href="our-activities.html" data-i18n="nav_activities">Our Activities</a></li>
+                        <li><a href="contact-us.html"data-i18n="nav_contact" >Contact Us</a></li>
                     </ul>
                 </div>
             </nav>
@@ -58,12 +69,12 @@
             </div>
         </div>
         <footer>
-            <div class="note">
-                <p>Copyright & copy; 2023 by Massawa Urban Heritage. Would you like more information and Questions?
-                <a href="mailto:akan.heritage.1@gmail.com"> Mail the webmaster in Massawa Urban Heritage </a>
-                <a href="https://www.facebook.com/share/p/rYbbZzmT5W6XmmBj/?mibextid=WC7FNe"> facebook </a>
-                </p>
-            </div>
-        </footer>
+        <div class="note">
+            <p data-i18n="footer_text">Copyright & copy; 2023 by Massawa Urban Heritage. Would you like more information and Questions?
+                <a href="mailto:akan.heritage.1@gmail.com" data-i18n="footer_mail"> Mail the webmaster in Massawa Urban Heritage </a>
+                <a href="https://www.facebook.com/share/p/rYbbZzmT5W6XmmBj/?mibextid=WC7FNe" data-i18n="footer_facebook"> facebook </a>
+            </p>
+        </div>
+    </footer>
 </body>
 </html>
