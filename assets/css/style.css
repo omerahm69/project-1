@@ -55,11 +55,20 @@ font-family: Arial, Helvetica, sans-serif;
     height: 70px;
     vertical-align: middle;
 }
+<<<<<<< HEAD
+=======
+
+
+>>>>>>> dc1f5ee54337e7e3477b886c2f5f1c473f3a917f
 .language-selector {
     position:absolute;
     right: 60px;
     top: 40px;
+<<<<<<< HEAD
     height: 70px;s
+=======
+    height: 70px;
+>>>>>>> dc1f5ee54337e7e3477b886c2f5f1c473f3a917f
     vertical-align: middle;
     margin-left: auto;
 }
@@ -75,6 +84,10 @@ font-family: Arial, Helvetica, sans-serif;
     
 }
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> dc1f5ee54337e7e3477b886c2f5f1c473f3a917f
 .header h1 {
     padding:10px 2px;
     align-items:center;
@@ -108,7 +121,11 @@ nav ul{
 }
 .sitenav nav ul li a{
 
+<<<<<<< HEAD
     color:#72726a;
+=======
+    color:#444;
+>>>>>>> dc1f5ee54337e7e3477b886c2f5f1c473f3a917f
     background-color: #91bfd0;
     padding:10px;
     border-radius: 5px;
