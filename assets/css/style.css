@@ -14,8 +14,7 @@ font-family: Arial, Helvetica, sans-serif;
     justify-content: space-between;
     align-items: center;
     padding:10px 20px;
-    background-image: url("../images/Entrance_of_Old_Arab_Souk.webp");
-    
+    background-image: url("../images/The-old-city-of-Massawa-in-Eritrea-05271413329F708F.webp");
     filter:contrast(96%);
     background-size: cover;
     background-position: center center;
@@ -55,20 +54,11 @@ font-family: Arial, Helvetica, sans-serif;
     height: 70px;
     vertical-align: middle;
 }
-<<<<<<< HEAD
-=======
-
-
->>>>>>> dc1f5ee54337e7e3477b886c2f5f1c473f3a917f
 .language-selector {
     position:absolute;
     right: 60px;
     top: 40px;
-<<<<<<< HEAD
     height: 70px;s
-=======
-    height: 70px;
->>>>>>> dc1f5ee54337e7e3477b886c2f5f1c473f3a917f
     vertical-align: middle;
     margin-left: auto;
 }
@@ -77,24 +67,19 @@ font-family: Arial, Helvetica, sans-serif;
     padding: 5px;
     border-radius: 5px;
     background: #444;
-    color: white;
+    color: rgb(179, 173, 173);
     border: none;
     vertical-align: middle;
     margin-top: 25px;
     
 }
-
-<<<<<<< HEAD
-=======
-
->>>>>>> dc1f5ee54337e7e3477b886c2f5f1c473f3a917f
 .header h1 {
     padding:10px 2px;
     align-items:center;
     margin-top:10px;
     margin-bottom: 2px;
-    color: rgb(30, 30, 32);
-    color:rgb(28, 18, 18);
+    color: rgb(219, 219, 228);
+    color:rgb(148, 141, 141);
     font-size: small;
     width:100%;
     display: inline-block;
@@ -120,12 +105,7 @@ nav ul{
     font-size:larger;
 }
 .sitenav nav ul li a{
-
-<<<<<<< HEAD
-    color:#72726a;
-=======
-    color:#444;
->>>>>>> dc1f5ee54337e7e3477b886c2f5f1c473f3a917f
+    color:#6e6e68;
     background-color: #91bfd0;
     padding:10px;
     border-radius: 5px;
