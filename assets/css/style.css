@@ -79,7 +79,7 @@ font-family: Arial, Helvetica, sans-serif;
     margin-top:10px;
     margin-bottom: 2px;
     color: rgb(219, 219, 228);
-    color:rgb(148, 141, 141);
+    color:white;
     font-size: small;
     width:100%;
     display: inline-block;
@@ -105,7 +105,7 @@ nav ul{
     font-size:larger;
 }
 .sitenav nav ul li a{
-    color:#6e6e68;
+    color:#444;
     background-color: #91bfd0;
     padding:10px;
     border-radius: 5px;

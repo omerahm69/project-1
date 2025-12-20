@@ -35,3 +35,5 @@ function changeLanguage(lang) {
 
 // Load selected language at startup
 window.onload = () => setLanguage(currentLang);
+
+
